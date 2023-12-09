@@ -919,186 +919,6 @@ function calculosAntropometricos(){
         }
     }
 
-    if(idade >= 30.00 && idade <= 34.99 && (feminino == true)){
-        if(agb <= 12.19){
-            agbPercent = "Percentil AGB < 5 (sem obesidade)"
-        }
-        if(agb == 12.20){
-            agbPercent = "Percentil AGB = 5 (sem obesidade)"
-        }
-        if(agb >= 12.21 && agb <= 14.79){
-            agbPercent = "Percentil AGB entre 5 e 10 (sem obesidade)"
-        }
-        if(agb == 14.80){
-            agbPercent = "Percentil AGB = 10 (sem obesidade)"
-        }
-        if(agb >= 14.81 && agb <= 17.19){
-            agbPercent = "Percentil AGB entre 10 e 15 (sem obesidade)"
-        }
-        if(agb == 17.20){
-            agbPercent = "Percentil AGB = 15 (sem obesidade)"
-        }
-        if(agb >= 17.21 && agb <= 20.39){
-            agbPercent = "Percentil AGB entre 15 e 25 (sem obesidade)"
-        }
-        if(agb == 20.40){
-            agbPercent = "Percentil AGB = 25 (sem obesidade)"
-        }
-        if(agb >= 20.41 && agb <= 28.19){
-            agbPercent = "Percentil AGB entre 25 e 50 (sem obesidade)"
-        }
-        if(agb == 28.20){
-            agbPercent = "Percentil AGB = 50 (sem obesidade)"
-        }
-        if(agb >= 28.21 && agb <= 38.99){
-            agbPercent = "Percentil AGB entre 50 e 75 (sem obesidade)"
-        }
-        if(agb == 39.00){
-            agbPercent = "Percentil AGB = 75 (sem obesidade)"
-        }
-        if(agb >= 39.01 && agb <= 46.79){
-            agbPercent = "Percentil AGB entre 75 e 85 (sem obesidade)"
-        }
-        if(agb == 46.80){
-            agbPercent = "Percentil AGB = 85 (sem obesidade)"
-        }
-        if(agb >= 46.81 && agb <= 52.29){
-            agbPercent = "Percentil AGB entre 85 e 90 (sem obesidade)"
-        }
-        if(agb == 52.30){
-            agbPercent = "Percentil AGB = 90 (sem obesidade)"
-        }
-        if(agb >= 52.31 && agb <= 64.49){
-            agbPercent = "Percentil AGB maior que 90 e menor 95 (com obesidade)"
-        }
-        if(agb == 64.50){
-            agbPercent = "Percentil AGB = 95 (com obesidade)"
-        }
-        if(agb >= 64.51){
-            agbPercent = "Percentil AGB maior que 95 (com obesidade)"
-        }
-    }
-
-    if(idade >= 30.00 && idade <= 34.99 && (feminino == true)){
-        if(agb <= 12.19){
-            agbPercent = "Percentil AGB < 5 (sem obesidade)"
-        }
-        if(agb == 12.20){
-            agbPercent = "Percentil AGB = 5 (sem obesidade)"
-        }
-        if(agb >= 12.21 && agb <= 14.79){
-            agbPercent = "Percentil AGB entre 5 e 10 (sem obesidade)"
-        }
-        if(agb == 14.80){
-            agbPercent = "Percentil AGB = 10 (sem obesidade)"
-        }
-        if(agb >= 14.81 && agb <= 17.19){
-            agbPercent = "Percentil AGB entre 10 e 15 (sem obesidade)"
-        }
-        if(agb == 17.20){
-            agbPercent = "Percentil AGB = 15 (sem obesidade)"
-        }
-        if(agb >= 17.21 && agb <= 20.39){
-            agbPercent = "Percentil AGB entre 15 e 25 (sem obesidade)"
-        }
-        if(agb == 20.40){
-            agbPercent = "Percentil AGB = 25 (sem obesidade)"
-        }
-        if(agb >= 20.41 && agb <= 28.19){
-            agbPercent = "Percentil AGB entre 25 e 50 (sem obesidade)"
-        }
-        if(agb == 28.20){
-            agbPercent = "Percentil AGB = 50 (sem obesidade)"
-        }
-        if(agb >= 28.21 && agb <= 38.99){
-            agbPercent = "Percentil AGB entre 50 e 75 (sem obesidade)"
-        }
-        if(agb == 39.00){
-            agbPercent = "Percentil AGB = 75 (sem obesidade)"
-        }
-        if(agb >= 39.01 && agb <= 46.79){
-            agbPercent = "Percentil AGB entre 75 e 85 (sem obesidade)"
-        }
-        if(agb == 46.80){
-            agbPercent = "Percentil AGB = 85 (sem obesidade)"
-        }
-        if(agb >= 46.81 && agb <= 52.29){
-            agbPercent = "Percentil AGB entre 85 e 90 (sem obesidade)"
-        }
-        if(agb == 52.30){
-            agbPercent = "Percentil AGB = 90 (sem obesidade)"
-        }
-        if(agb >= 52.31 && agb <= 64.49){
-            agbPercent = "Percentil AGB maior que 90 e menor 95 (com obesidade)"
-        }
-        if(agb == 64.50){
-            agbPercent = "Percentil AGB = 95 (com obesidade)"
-        }
-        if(agb >= 64.51){
-            agbPercent = "Percentil AGB maior que 95 (com obesidade)"
-        }
-    }
-
-    if(idade >= 30.00 && idade <= 34.99 && (feminino == true)){
-        if(agb <= 12.19){
-            agbPercent = "Percentil AGB < 5 (sem obesidade)"
-        }
-        if(agb == 12.20){
-            agbPercent = "Percentil AGB = 5 (sem obesidade)"
-        }
-        if(agb >= 12.21 && agb <= 14.79){
-            agbPercent = "Percentil AGB entre 5 e 10 (sem obesidade)"
-        }
-        if(agb == 14.80){
-            agbPercent = "Percentil AGB = 10 (sem obesidade)"
-        }
-        if(agb >= 14.81 && agb <= 17.19){
-            agbPercent = "Percentil AGB entre 10 e 15 (sem obesidade)"
-        }
-        if(agb == 17.20){
-            agbPercent = "Percentil AGB = 15 (sem obesidade)"
-        }
-        if(agb >= 17.21 && agb <= 20.39){
-            agbPercent = "Percentil AGB entre 15 e 25 (sem obesidade)"
-        }
-        if(agb == 20.40){
-            agbPercent = "Percentil AGB = 25 (sem obesidade)"
-        }
-        if(agb >= 20.41 && agb <= 28.19){
-            agbPercent = "Percentil AGB entre 25 e 50 (sem obesidade)"
-        }
-        if(agb == 28.20){
-            agbPercent = "Percentil AGB = 50 (sem obesidade)"
-        }
-        if(agb >= 28.21 && agb <= 38.99){
-            agbPercent = "Percentil AGB entre 50 e 75 (sem obesidade)"
-        }
-        if(agb == 39.00){
-            agbPercent = "Percentil AGB = 75 (sem obesidade)"
-        }
-        if(agb >= 39.01 && agb <= 46.79){
-            agbPercent = "Percentil AGB entre 75 e 85 (sem obesidade)"
-        }
-        if(agb == 46.80){
-            agbPercent = "Percentil AGB = 85 (sem obesidade)"
-        }
-        if(agb >= 46.81 && agb <= 52.29){
-            agbPercent = "Percentil AGB entre 85 e 90 (sem obesidade)"
-        }
-        if(agb == 52.30){
-            agbPercent = "Percentil AGB = 90 (sem obesidade)"
-        }
-        if(agb >= 52.31 && agb <= 64.49){
-            agbPercent = "Percentil AGB maior que 90 e menor 95 (com obesidade)"
-        }
-        if(agb == 64.50){
-            agbPercent = "Percentil AGB = 95 (com obesidade)"
-        }
-        if(agb >= 64.51){
-            agbPercent = "Percentil AGB maior que 95 (com obesidade)"
-        }
-    }
-
     if(idade >= 35.00 && idade <= 39.99 && (feminino == true)){
         if(agb <= 12.99){
             agbPercent = "Percentil AGB < 5 (sem obesidade)"
@@ -1160,7 +980,7 @@ function calculosAntropometricos(){
     }
 
     if(idade >= 40.00 && idade <= 44.99 && (feminino == true)){
-        if(agb <= 13.89){
+        if(agb <= 13.79){
             agbPercent = "Percentil AGB < 5 (sem obesidade)"
         }
         if(agb == 13.80){
@@ -1399,6 +1219,486 @@ function calculosAntropometricos(){
         }
     }
 
+    // Tabela de percentil AGB - Homens
+    if(idade >= 18.00 && idade <= 24.99 && (masculino == true)){
+        if(agb <= 5.49){
+            agbPercent = "Percentil AGB < 5 (sem obesidade)"
+        }
+        if(agb == 5.50){
+            agbPercent = "Percentil AGB = 5 (sem obesidade)"
+        }
+        if(agb >= 5.51 && agb <= 6.89){
+            agbPercent = "Percentil AGB entre 5 e 10 (sem obesidade)"
+        }
+        if(agb == 6.90){
+            agbPercent = "Percentil AGB = 10 (sem obesidade)"
+        }
+        if(agb >= 6.91 && agb <= 7.69){
+            agbPercent = "Percentil AGB entre 10 e 15 (sem obesidade)"
+        }
+        if(agb == 7.70){
+            agbPercent = "Percentil AGB = 15 (sem obesidade)"
+        }
+        if(agb >= 7.71 && agb <= 9.19){
+            agbPercent = "Percentil AGB entre 15 e 25 (sem obesidade)"
+        }
+        if(agb == 9.20){
+            agbPercent = "Percentil AGB = 25 (sem obesidade)"
+        }
+        if(agb >= 9.21 && agb <= 13.89){
+            agbPercent = "Percentil AGB entre 25 e 50 (sem obesidade)"
+        }
+        if(agb == 13.90){
+            agbPercent = "Percentil AGB = 50 (sem obesidade)"
+        }
+        if(agb >= 13.91 && agb <= 21.49){
+            agbPercent = "Percentil AGB entre 50 e 75 (sem obesidade)"
+        }
+        if(agb == 21.50){
+            agbPercent = "Percentil AGB = 75 (sem obesidade)"
+        }
+        if(agb >= 21.51 && agb <= 26.79){
+            agbPercent = "Percentil AGB entre 75 e 85 (sem obesidade)"
+        }
+        if(agb == 26.80){
+            agbPercent = "Percentil AGB = 85 (sem obesidade)"
+        }
+        if(agb >= 26.81 && agb <= 30.69){
+            agbPercent = "Percentil AGB entre 85 e 90 (sem obesidade)"
+        }
+        if(agb == 30.70){
+            agbPercent = "Percentil AGB = 90 (sem obesidade)"
+        }
+        if(agb >= 30.71 && agb <= 37.19){
+            agbPercent = "Percentil AGB maior que 90 e menor 95 (com obesidade)"
+        }
+        if(agb == 37.20){
+            agbPercent = "Percentil AGB = 95 (com obesidade)"
+        }
+        if(agb >= 37.21){
+            agbPercent = "Percentil AGB maior que 95 (com obesidade)"
+        }
+    }
+
+    if(idade >= 25.00 && idade <= 29.99 && (masculino == true)){
+        if(agb <= 5.99){
+            agbPercent = "Percentil AGB < 5 (sem obesidade)"
+        }
+        if(agb == 6.00){
+            agbPercent = "Percentil AGB = 5 (sem obesidade)"
+        }
+        if(agb >= 6.01 && agb <= 7.29){
+            agbPercent = "Percentil AGB entre 5 e 10 (sem obesidade)"
+        }
+        if(agb == 7.30){
+            agbPercent = "Percentil AGB = 10 (sem obesidade)"
+        }
+        if(agb >= 7.31 && agb <= 8.39){
+            agbPercent = "Percentil AGB entre 10 e 15 (sem obesidade)"
+        }
+        if(agb == 8.40){
+            agbPercent = "Percentil AGB = 15 (sem obesidade)"
+        }
+        if(agb >= 8.41 && agb <= 10.19){
+            agbPercent = "Percentil AGB entre 15 e 25 (sem obesidade)"
+        }
+        if(agb == 10.20){
+            agbPercent = "Percentil AGB = 25 (sem obesidade)"
+        }
+        if(agb >= 10.21 && agb <= 16.29){
+            agbPercent = "Percentil AGB entre 25 e 50 (sem obesidade)"
+        }
+        if(agb == 16.30){
+            agbPercent = "Percentil AGB = 50 (sem obesidade)"
+        }
+        if(agb >= 16.31 && agb <= 23.89){
+            agbPercent = "Percentil AGB entre 50 e 75 (sem obesidade)"
+        }
+        if(agb == 23.90){
+            agbPercent = "Percentil AGB = 75 (sem obesidade)"
+        }
+        if(agb >= 23.91 && agb <= 29.69){
+            agbPercent = "Percentil AGB entre 75 e 85 (sem obesidade)"
+        }
+        if(agb == 29.70){
+            agbPercent = "Percentil AGB = 85 (sem obesidade)"
+        }
+        if(agb >= 29.71 && agb <= 33.29){
+            agbPercent = "Percentil AGB entre 85 e 90 (sem obesidade)"
+        }
+        if(agb == 33.30){
+            agbPercent = "Percentil AGB = 90 (sem obesidade)"
+        }
+        if(agb >= 33.31 && agb <= 40.39){
+            agbPercent = "Percentil AGB maior que 90 e menor 95 (com obesidade)"
+        }
+        if(agb == 40.40){
+            agbPercent = "Percentil AGB = 95 (com obesidade)"
+        }
+        if(agb >= 40.41){
+            agbPercent = "Percentil AGB maior que 95 (com obesidade)"
+        }
+    }
+
+    if(idade >= 30.00 && idade <= 34.99 && (masculino == true)){
+        if(agb <= 6.19){
+            agbPercent = "Percentil AGB < 5 (sem obesidade)"
+        }
+        if(agb == 6.20){
+            agbPercent = "Percentil AGB = 5 (sem obesidade)"
+        }
+        if(agb >= 6.21 && agb <= 8.39){
+            agbPercent = "Percentil AGB entre 5 e 10 (sem obesidade)"
+        }
+        if(agb == 8.40){
+            agbPercent = "Percentil AGB = 10 (sem obesidade)"
+        }
+        if(agb >= 8.41 && agb <= 9.69){
+            agbPercent = "Percentil AGB entre 10 e 15 (sem obesidade)"
+        }
+        if(agb == 9.70){
+            agbPercent = "Percentil AGB = 15 (sem obesidade)"
+        }
+        if(agb >= 9.71 && agb <= 11.89){
+            agbPercent = "Percentil AGB entre 15 e 25 (sem obesidade)"
+        }
+        if(agb == 11.90){
+            agbPercent = "Percentil AGB = 25 (sem obesidade)"
+        }
+        if(agb >= 11.91 && agb <= 18.39){
+            agbPercent = "Percentil AGB entre 25 e 50 (sem obesidade)"
+        }
+        if(agb == 18.40){
+            agbPercent = "Percentil AGB = 50 (sem obesidade)"
+        }
+        if(agb >= 18.41 && agb <= 25.59){
+            agbPercent = "Percentil AGB entre 50 e 75 (sem obesidade)"
+        }
+        if(agb == 25.60){
+            agbPercent = "Percentil AGB = 75 (sem obesidade)"
+        }
+        if(agb >= 25.61 && agb <= 31.59){
+            agbPercent = "Percentil AGB entre 75 e 85 (sem obesidade)"
+        }
+        if(agb == 31.60){
+            agbPercent = "Percentil AGB = 85 (sem obesidade)"
+        }
+        if(agb >= 31.61 && agb <= 34.79){
+            agbPercent = "Percentil AGB entre 85 e 90 (sem obesidade)"
+        }
+        if(agb == 34.80){
+            agbPercent = "Percentil AGB = 90 (sem obesidade)"
+        }
+        if(agb >= 34.81 && agb <= 41.89){
+            agbPercent = "Percentil AGB maior que 90 e menor 95 (com obesidade)"
+        }
+        if(agb == 41.90){
+            agbPercent = "Percentil AGB = 95 (com obesidade)"
+        }
+        if(agb >= 41.91){
+            agbPercent = "Percentil AGB maior que 95 (com obesidade)"
+        }
+    }
+
+    if(idade >= 35.00 && idade <= 39.99 && (masculino == true)){
+        if(agb <= 6.49){
+            agbPercent = "Percentil AGB < 5 (sem obesidade)"
+        }
+        if(agb == 6.50){
+            agbPercent = "Percentil AGB = 5 (sem obesidade)"
+        }
+        if(agb >= 6.51 && agb <= 8.09){
+            agbPercent = "Percentil AGB entre 5 e 10 (sem obesidade)"
+        }
+        if(agb == 8.10){
+            agbPercent = "Percentil AGB = 10 (sem obesidade)"
+        }
+        if(agb >= 8.11 && agb <= 9.59){
+            agbPercent = "Percentil AGB entre 10 e 15 (sem obesidade)"
+        }
+        if(agb == 9.60){
+            agbPercent = "Percentil AGB = 15 (sem obesidade)"
+        }
+        if(agb >= 9.61 && agb <= 12.79){
+            agbPercent = "Percentil AGB entre 15 e 25 (sem obesidade)"
+        }
+        if(agb == 12.80){
+            agbPercent = "Percentil AGB = 25 (sem obesidade)"
+        }
+        if(agb >= 12.81 && agb <= 18.79){
+            agbPercent = "Percentil AGB entre 25 e 50 (sem obesidade)"
+        }
+        if(agb == 18.80){
+            agbPercent = "Percentil AGB = 50 (sem obesidade)"
+        }
+        if(agb >= 18.81 && agb <= 25.19){
+            agbPercent = "Percentil AGB entre 50 e 75 (sem obesidade)"
+        }
+        if(agb == 25.20){
+            agbPercent = "Percentil AGB = 75 (sem obesidade)"
+        }
+        if(agb >= 25.21 && agb <= 29.59){
+            agbPercent = "Percentil AGB entre 75 e 85 (sem obesidade)"
+        }
+        if(agb == 29.60){
+            agbPercent = "Percentil AGB = 85 (sem obesidade)"
+        }
+        if(agb >= 29.61 && agb <= 33.39){
+            agbPercent = "Percentil AGB entre 85 e 90 (sem obesidade)"
+        }
+        if(agb == 33.40){
+            agbPercent = "Percentil AGB = 90 (sem obesidade)"
+        }
+        if(agb >= 33.41 && agb <= 39.39){
+            agbPercent = "Percentil AGB maior que 90 e menor 95 (com obesidade)"
+        }
+        if(agb == 39.40){
+            agbPercent = "Percentil AGB = 95 (com obesidade)"
+        }
+        if(agb >= 39.41){
+            agbPercent = "Percentil AGB maior que 95 (com obesidade)"
+        }
+    }
+
+    if(idade >= 40.00 && idade <= 44.99 && (masculino == true)){
+        if(agb <= 7.09){
+            agbPercent = "Percentil AGB < 5 (sem obesidade)"
+        }
+        if(agb == 7.10){
+            agbPercent = "Percentil AGB = 5 (sem obesidade)"
+        }
+        if(agb >= 7.11 && agb <= 8.69){
+            agbPercent = "Percentil AGB entre 5 e 10 (sem obesidade)"
+        }
+        if(agb == 8.70){
+            agbPercent = "Percentil AGB = 10 (sem obesidade)"
+        }
+        if(agb >= 8.71 && agb <= 9.89){
+            agbPercent = "Percentil AGB entre 10 e 15 (sem obesidade)"
+        }
+        if(agb == 9.90){
+            agbPercent = "Percentil AGB = 15 (sem obesidade)"
+        }
+        if(agb >= 9.91 && agb <= 12.39){
+            agbPercent = "Percentil AGB entre 15 e 25 (sem obesidade)"
+        }
+        if(agb == 12.40){
+            agbPercent = "Percentil AGB = 25 (sem obesidade)"
+        }
+        if(agb >= 12.41 && agb <= 17.99){
+            agbPercent = "Percentil AGB entre 25 e 50 (sem obesidade)"
+        }
+        if(agb == 18.00){
+            agbPercent = "Percentil AGB = 50 (sem obesidade)"
+        }
+        if(agb >= 18.01 && agb <= 25.29){
+            agbPercent = "Percentil AGB entre 50 e 75 (sem obesidade)"
+        }
+        if(agb == 25.30){
+            agbPercent = "Percentil AGB = 75 (sem obesidade)"
+        }
+        if(agb >= 25.31 && agb <= 30.09){
+            agbPercent = "Percentil AGB entre 75 e 85 (sem obesidade)"
+        }
+        if(agb == 30.10){
+            agbPercent = "Percentil AGB = 85 (sem obesidade)"
+        }
+        if(agb >= 30.11 && agb <= 35.29){
+            agbPercent = "Percentil AGB entre 85 e 90 (sem obesidade)"
+        }
+        if(agb == 35.30){
+            agbPercent = "Percentil AGB = 90 (sem obesidade)"
+        }
+        if(agb >= 35.31 && agb <= 42.09){
+            agbPercent = "Percentil AGB maior que 90 e menor 95 (com obesidade)"
+        }
+        if(agb == 42.10){
+            agbPercent = "Percentil AGB = 95 (com obesidade)"
+        }
+        if(agb >= 42.11){
+            agbPercent = "Percentil AGB maior que 95 (com obesidade)"
+        }
+    }
+
+    if(idade >= 45.00 && idade <= 49.99 && (masculino == true)){
+        if(agb <= 7.39){
+            agbPercent = "Percentil AGB < 5 (sem obesidade)"
+        }
+        if(agb == 7.40){
+            agbPercent = "Percentil AGB = 5 (sem obesidade)"
+        }
+        if(agb >= 7.41 && agb <= 8.99){
+            agbPercent = "Percentil AGB entre 5 e 10 (sem obesidade)"
+        }
+        if(agb == 9.00){
+            agbPercent = "Percentil AGB = 10 (sem obesidade)"
+        }
+        if(agb >= 9.01 && agb <= 10.19){
+            agbPercent = "Percentil AGB entre 10 e 15 (sem obesidade)"
+        }
+        if(agb == 10.20){
+            agbPercent = "Percentil AGB = 15 (sem obesidade)"
+        }
+        if(agb >= 10.21 && agb <= 12.29){
+            agbPercent = "Percentil AGB entre 15 e 25 (sem obesidade)"
+        }
+        if(agb == 12.30){
+            agbPercent = "Percentil AGB = 25 (sem obesidade)"
+        }
+        if(agb >= 12.31 && agb <= 18.09){
+            agbPercent = "Percentil AGB entre 25 e 50 (sem obesidade)"
+        }
+        if(agb == 18.10){
+            agbPercent = "Percentil AGB = 50 (sem obesidade)"
+        }
+        if(agb >= 18.11 && agb <= 24.89){
+            agbPercent = "Percentil AGB entre 50 e 75 (sem obesidade)"
+        }
+        if(agb == 24.90){
+            agbPercent = "Percentil AGB = 75 (sem obesidade)"
+        }
+        if(agb >= 24.91 && agb <= 29.69){
+            agbPercent = "Percentil AGB entre 75 e 85 (sem obesidade)"
+        }
+        if(agb == 29.70){
+            agbPercent = "Percentil AGB = 85 (sem obesidade)"
+        }
+        if(agb >= 29.71 && agb <= 33.69){
+            agbPercent = "Percentil AGB entre 85 e 90 (sem obesidade)"
+        }
+        if(agb == 33.70){
+            agbPercent = "Percentil AGB = 90 (sem obesidade)"
+        }
+        if(agb >= 33.71 && agb <= 40.39){
+            agbPercent = "Percentil AGB maior que 90 e menor 95 (com obesidade)"
+        }
+        if(agb == 40.40){
+            agbPercent = "Percentil AGB = 95 (com obesidade)"
+        }
+        if(agb >= 40.41){
+            agbPercent = "Percentil AGB maior que 95 (com obesidade)"
+        }
+    }
+
+    if(idade >= 50.00 && idade <= 54.99 && (masculino == true)){
+        if(agb <= 6.99){
+            agbPercent = "Percentil AGB < 5 (sem obesidade)"
+        }
+        if(agb == 7.00){
+            agbPercent = "Percentil AGB = 5 (sem obesidade)"
+        }
+        if(agb >= 7.01 && agb <= 8.59){
+            agbPercent = "Percentil AGB entre 5 e 10 (sem obesidade)"
+        }
+        if(agb == 8.60){
+            agbPercent = "Percentil AGB = 10 (sem obesidade)"
+        }
+        if(agb >= 8.61 && agb <= 10.09){
+            agbPercent = "Percentil AGB entre 10 e 15 (sem obesidade)"
+        }
+        if(agb == 10.10){
+            agbPercent = "Percentil AGB = 15 (sem obesidade)"
+        }
+        if(agb >= 10.11 && agb <= 12.29){
+            agbPercent = "Percentil AGB entre 15 e 25 (sem obesidade)"
+        }
+        if(agb == 12.30){
+            agbPercent = "Percentil AGB = 25 (sem obesidade)"
+        }
+        if(agb >= 12.31 && agb <= 17.29){
+            agbPercent = "Percentil AGB entre 25 e 50 (sem obesidade)"
+        }
+        if(agb == 17.30){
+            agbPercent = "Percentil AGB = 50 (sem obesidade)"
+        }
+        if(agb >= 17.31 && agb <= 23.89){
+            agbPercent = "Percentil AGB entre 50 e 75 (sem obesidade)"
+        }
+        if(agb == 23.90){
+            agbPercent = "Percentil AGB = 75 (sem obesidade)"
+        }
+        if(agb >= 23.91 && agb <= 28.99){
+            agbPercent = "Percentil AGB entre 75 e 85 (sem obesidade)"
+        }
+        if(agb == 29.00){
+            agbPercent = "Percentil AGB = 85 (sem obesidade)"
+        }
+        if(agb >= 29.01 && agb <= 32.39){
+            agbPercent = "Percentil AGB entre 85 e 90 (sem obesidade)"
+        }
+        if(agb == 32.40){
+            agbPercent = "Percentil AGB = 90 (sem obesidade)"
+        }
+        if(agb >= 32.41 && agb <= 39.99){
+            agbPercent = "Percentil AGB maior que 90 e menor 95 (com obesidade)"
+        }
+        if(agb == 40.00){
+            agbPercent = "Percentil AGB = 95 (com obesidade)"
+        }
+        if(agb >= 40.01){
+            agbPercent = "Percentil AGB maior que 95 (com obesidade)"
+        }
+    }
+
+    if(idade >= 55.00 && idade <= 59.99 && (masculino == true)){
+        if(agb <= 6.39){
+            agbPercent = "Percentil AGB < 5 (sem obesidade)"
+        }
+        if(agb == 6.40){
+            agbPercent = "Percentil AGB = 5 (sem obesidade)"
+        }
+        if(agb >= 6.41 && agb <= 8.19){
+            agbPercent = "Percentil AGB entre 5 e 10 (sem obesidade)"
+        }
+        if(agb == 8.20){
+            agbPercent = "Percentil AGB = 10 (sem obesidade)"
+        }
+        if(agb >= 8.21 && agb <= 9.69){
+            agbPercent = "Percentil AGB entre 10 e 15 (sem obesidade)"
+        }
+        if(agb == 9.70){
+            agbPercent = "Percentil AGB = 15 (sem obesidade)"
+        }
+        if(agb >= 9.71 && agb <= 12.29){
+            agbPercent = "Percentil AGB entre 15 e 25 (sem obesidade)"
+        }
+        if(agb == 12.30){
+            agbPercent = "Percentil AGB = 25 (sem obesidade)"
+        }
+        if(agb >= 12.31 && agb <= 17.39){
+            agbPercent = "Percentil AGB entre 25 e 50 (sem obesidade)"
+        }
+        if(agb == 17.40){
+            agbPercent = "Percentil AGB = 50 (sem obesidade)"
+        }
+        if(agb >= 17.41 && agb <= 23.79){
+            agbPercent = "Percentil AGB entre 50 e 75 (sem obesidade)"
+        }
+        if(agb == 23.80){
+            agbPercent = "Percentil AGB = 75 (sem obesidade)"
+        }
+        if(agb >= 23.81 && agb <= 28.39){
+            agbPercent = "Percentil AGB entre 75 e 85 (sem obesidade)"
+        }
+        if(agb == 28.40){
+            agbPercent = "Percentil AGB = 85 (sem obesidade)"
+        }
+        if(agb >= 28.41 && agb <= 33.29){
+            agbPercent = "Percentil AGB entre 85 e 90 (sem obesidade)"
+        }
+        if(agb == 33.30){
+            agbPercent = "Percentil AGB = 90 (sem obesidade)"
+        }
+        if(agb >= 33.31 && agb <= 39.09){
+            agbPercent = "Percentil AGB maior que 90 e menor 95 (com obesidade)"
+        }
+        if(agb == 39.10){
+            agbPercent = "Percentil AGB = 95 (com obesidade)"
+        }
+        if(agb >= 39.11){
+            agbPercent = "Percentil AGB maior que 95 (com obesidade)"
+        }
+    }
 
 
     // saída de resultados
