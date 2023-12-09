@@ -1700,6 +1700,24 @@ function calculosAntropometricos(){
         }
     }
 
+    // 21º PASSO - Classificação pela Relação Cintura Quadril - RCQ
+    let rcq = Number(cc / cq)
+
+    // Classificação RCQ para mulheres
+    if(rcq <= 0.85 && (feminino == true)){
+        rcqClass = "Paciente sem risco de complicações associadas a doenças metabólicas"
+    }
+    if(rcq > 0.85 && (feminino == true)){
+        rcqClass = "Paciente com risco de complicações associadas a doenças metabólicas"
+    }
+
+    // Classificação RCQ para homens
+    if(rcq <= 1.00 && (masculino == true)){
+        rcqClass = "Paciente sem risco de complicações associadas a doenças metabólicas"
+    }
+    if(rcq > 1.00 && (masculino == true)){
+        rcqClass = "Paciente com risco de complicações associadas a doenças metabólicas"
+    }
 
     // saída de resultados
     outPI.textContent = `1. Peso Ideal/Teórico (Kg): ${PICalc.toFixed(2)}`;
@@ -1724,6 +1742,9 @@ function calculosAntropometricos(){
     outAMBCClass.textContent = `18. AMBc Classificação: ${ambcClassific}`
     outAGB.textContent = `19. AGB (cm²): ${agb.toFixed(2)}`
     outAGBClass.textContent = `20. AGB Classificação: ${agbPercent}`
+    outRCQ.textContent = `21. RCQ: ${rcq.toFixed(2)}`
+    outRCQClass.textContent = `21.1. Classificação RCQ: ${rcqClass}`
+
 }
 var btCalcular = document.getElementById("btCalcular");
 btCalcular.addEventListener("click", calculosAntropometricos);
