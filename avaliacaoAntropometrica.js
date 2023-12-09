@@ -9,6 +9,9 @@ function calculosAntropometricos(){
     let masculino = rbMasculino.checked;
     let rbFeminino = document.getElementById("rbFem");
     let feminino = rbFeminino.checked;
+    // Verifica se a opção de etnia asiática foi marcada
+    let ckAsiatico = document.getElementById("asiatico");
+    let asiatico = ckAsiatico.checked;
     // captura o Peso Atual e Peso Usual
     let pa = Number(document.querySelector("#inPA").value);
     let pu = Number(document.querySelector("#inPU").value);
@@ -1719,6 +1722,43 @@ function calculosAntropometricos(){
         rcqClass = "Paciente com risco de complicações associadas a doenças metabólicas"
     }
 
+
+    // 22º PASSO - Circunferência da Cintura e Circunferência Abdominal
+    
+    // Classificação CC para homens
+    if(cc < 90.00 && (masculino == true) && (asiatico == true)){
+        ccClas = "Paciente não apresenta risco aumentado para doenças associadas para obesidade ou risco de complicações metabólicas"
+    }
+    if(cc >= 90.00 && (masculino == true) && (asiatico == true)){
+        ccClas = "Paciente apresenta risco aumentado para doenças associadas para obesidade ou risco de complicações metabólicas"
+    }
+    if(cc < 94.00 && (masculino == true) && (asiatico == false)){
+        ccClas = "Paciente não apresenta risco aumentado para doenças associadas para obesidade ou risco de complicações metabólicas"
+    }
+    if(cc >= 94.00 && cc < 102.00 && (masculino == true) && (asiatico == false)){
+        ccClas = "Paciente apresenta risco aumentado para doenças associadas para obesidade ou risco de complicações metabólicas"
+    }
+    if(cc >= 102.00 && (masculino == true) && (asiatico == false)){
+        ccClas = "Paciente apresenta risco muito aumentado para doenças associadas para obesidade ou risco de complicações metabólicas"
+    }
+
+    // Classificação CC para mulheres
+    if(cc < 80.00 && (feminino == true) && (asiatico == true)){
+        ccClas = "Paciente não apresenta risco aumentado para doenças associadas para obesidade ou risco de complicações metabólicas"
+    }
+    if(cc >= 80.00 && (feminino == true) && (asiatico == true)){
+        ccClas = "Paciente apresenta risco aumentado para doenças associadas para obesidade ou risco de complicações metabólicas"
+    }
+    if(cc < 80.00 && (feminino == true) && (asiatico == false)){
+        ccClas = "Paciente não apresenta risco aumentado para doenças associadas para obesidade ou risco de complicações metabólicas"
+    }
+    if(cc >= 80.00 && cc < 88.00 && (feminino == true) && (asiatico == false)){
+        ccClas = "Paciente apresenta risco aumentado para doenças associadas para obesidade ou risco de complicações metabólicas"
+    }
+    if(cc >= 88.00 && (feminino == true) && (asiatico == false)){
+        ccClas = "Paciente apresenta risco muito aumentado para doenças associadas para obesidade ou risco de complicações metabólicas"
+    }
+
     // saída de resultados
     outPI.textContent = `1. Peso Ideal/Teórico (Kg): ${PICalc.toFixed(2)}`;
     outPSMin.textContent = `2.1. Peso Saudável Mínimo (Kg): ${psMin.toFixed(2)}`
@@ -1744,6 +1784,7 @@ function calculosAntropometricos(){
     outAGBClass.textContent = `20. AGB Classificação: ${agbPercent}`
     outRCQ.textContent = `21. RCQ: ${rcq.toFixed(2)}`
     outRCQClass.textContent = `21.1. Classificação RCQ: ${rcqClass}`
+    outEtnia.textContent = `22. Classificação de riscos segundo a CC e CA: ${ccClas}`
 
 }
 var btCalcular = document.getElementById("btCalcular");
