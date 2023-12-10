@@ -1759,6 +1759,340 @@ function calculosAntropometricos(){
         ccClas = "Paciente apresenta risco muito aumentado para doenças associadas para obesidade ou risco de complicações metabólicas"
     }
 
+    // 23 PASSO - Determinando percentuais de gordura corporal pela soma das 4 dobras
+    let quatroDobras = Number(pct + pcb + dcse + dcsi)
+
+    // Tabela de somatório das 4 dobras para mulheres
+    // Tabela de somatório 4 dobras mulheres de 16 a 29 anos
+    if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 15.00 && quatroDobras <= 19.99){
+        totalSomatorio = Number(10.50)
+    }
+    if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 20.00 && quatroDobras <= 24.99){
+        totalSomatorio = Number(14.10)
+    }
+    if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 25.00 && quatroDobras <= 29.99){
+        totalSomatorio = Number(16.80)
+    }
+    if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 30.00 && quatroDobras <= 34.99){
+        totalSomatorio = Number(19.50)
+    }
+    if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 35.00 && quatroDobras <= 39.99){
+        totalSomatorio = Number(21.50)
+    }
+    if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 40.00 && quatroDobras <= 44.99){
+        totalSomatorio = Number(23.40)
+    }
+    if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 45.00 && quatroDobras <= 49.99){
+        totalSomatorio = Number(25.00)
+    }
+    if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 50.00 && quatroDobras <= 54.99){
+        totalSomatorio = Number(26.50)
+    }
+    if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 55.00 && quatroDobras <= 59.99){
+        totalSomatorio = Number(27.80)
+    }
+    if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 60.00 && quatroDobras <= 64.99){
+        totalSomatorio = Number(29.10)
+    }
+    if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 65.00 && quatroDobras <= 69.99){
+        totalSomatorio = Number(30.20)
+    }
+    if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 70.00 && quatroDobras <= 74.99){
+        totalSomatorio = Number(31.20)
+    }
+    if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 75.00 && quatroDobras <= 79.99){
+        totalSomatorio = Number(32.20)
+    }
+    if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 80.00 && quatroDobras <= 84.99){
+        totalSomatorio = Number(33.10)
+    }
+    if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 85.00 && quatroDobras <= 89.99){
+        totalSomatorio = Number(34.00)
+    }
+    if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 90.00 && quatroDobras <= 94.99){
+        totalSomatorio = Number(34.80)
+    }
+    if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 95.00 && quatroDobras <= 99.99){
+        totalSomatorio = Number(35.60)
+    }
+    if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 100.00 && quatroDobras <= 104.99){
+        totalSomatorio = Number(36.40)
+    }
+    if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 105.00 && quatroDobras <= 109.99){
+        totalSomatorio = Number(37.10)
+    }
+    if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 110.00 && quatroDobras <= 114.99){
+        totalSomatorio = Number(37.80)
+    }
+    if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 115.00 && quatroDobras <= 119.99){
+        totalSomatorio = Number(38.40)
+    }
+    if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 120.00 && quatroDobras <= 124.99){
+        totalSomatorio = Number(39.00)
+    }
+    if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 125.00 && quatroDobras <= 129.99){
+        totalSomatorio = Number(39.60)
+    }
+    if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 130.00 && quatroDobras <= 134.99){
+        totalSomatorio = Number(40.20)
+    }
+    if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 135.00 && quatroDobras <= 139.99){
+        totalSomatorio = Number(40.80)
+    }
+    if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 140.00 && quatroDobras <= 144.99){
+        totalSomatorio = Number(41.30)
+    }
+    if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 145.00 && quatroDobras <= 149.99){
+        totalSomatorio = Number(41.80)
+    }
+    if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 150.00 && quatroDobras <= 154.99){
+        totalSomatorio = Number(42.30)
+    }
+    if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 155.00 && quatroDobras <= 159.99){
+        totalSomatorio = Number(42.80)
+    }
+    if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 160.00 && quatroDobras <= 164.99){
+        totalSomatorio = Number(43.30)
+    }
+    if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 165.00 && quatroDobras <= 169.99){
+        totalSomatorio = Number(43.70)
+    }
+    if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 170.00 && quatroDobras <= 174.99){
+        totalSomatorio = Number(44.10)
+    }
+    // Tabela de somátorio 4 dobras mulheres 30 a 39 anos
+    if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 20.00 && quatroDobras <= 24.99){
+        totalSomatorio = Number(17.00)
+    }
+    if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 25.00 && quatroDobras <= 29.99){
+        totalSomatorio = Number(19.40)
+    }
+    if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 30.00 && quatroDobras <= 34.99){
+        totalSomatorio = Number(21.80)
+    }
+    if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 35.00 && quatroDobras <= 39.99){
+        totalSomatorio = Number(23.70)
+    }
+    if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 40.00 && quatroDobras <= 44.99){
+        totalSomatorio = Number(25.50)
+    }
+    if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 45.00 && quatroDobras <= 49.99){
+        totalSomatorio = Number(26.90)
+    }
+    if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 50.00 && quatroDobras <= 54.99){
+        totalSomatorio = Number(28.20)
+    }
+    if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 55.00 && quatroDobras <= 59.99){
+        totalSomatorio = Number(29.40)
+    }
+    if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 60.00 && quatroDobras <= 64.99){
+        totalSomatorio = Number(30.60)
+    }
+    if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 65.00 && quatroDobras <= 69.99){
+        totalSomatorio = Number(31.60)
+    }
+    if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 70.00 && quatroDobras <= 74.99){
+        totalSomatorio = Number(32.50)
+    }
+    if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 75.00 && quatroDobras <= 79.99){
+        totalSomatorio = Number(33.40)
+    }
+    if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 80.00 && quatroDobras <= 84.99){
+        totalSomatorio = Number(34.30)
+    }
+    if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 85.00 && quatroDobras <= 89.99){
+        totalSomatorio = Number(35.10)
+    }
+    if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 90.00 && quatroDobras <= 94.99){
+        totalSomatorio = Number(35.80)
+    }
+    if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 95.00 && quatroDobras <= 99.99){
+        totalSomatorio = Number(36.50)
+    }
+    if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 100.00 && quatroDobras <= 104.99){
+        totalSomatorio = Number(37.20)
+    }
+    if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 105.00 && quatroDobras <= 109.99){
+        totalSomatorio = Number(37.90)
+    }
+    if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 110.00 && quatroDobras <= 114.99){
+        totalSomatorio = Number(38.60)
+    }
+    if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 115.00 && quatroDobras <= 119.99){
+        totalSomatorio = Number(39.10)
+    }
+    if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 120.00 && quatroDobras <= 124.99){
+        totalSomatorio = Number(39.60)
+    }
+    if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 125.00 && quatroDobras <= 129.99){
+        totalSomatorio = Number(40.10)
+    }
+    if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 130.00 && quatroDobras <= 134.99){
+        totalSomatorio = Number(40.60)
+    }
+    if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 135.00 && quatroDobras <= 139.99){
+        totalSomatorio = Number(41.10)
+    }
+    if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 140.00 && quatroDobras <= 144.99){
+        totalSomatorio = Number(41.60)
+    }
+    if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 145.00 && quatroDobras <= 149.99){
+        totalSomatorio = Number(42.10)
+    }
+    if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 150.00 && quatroDobras <= 154.99){
+        totalSomatorio = Number(42.60)
+    }
+    if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 155.00 && quatroDobras <= 159.99){
+        totalSomatorio = Number(43.10)
+    }
+    if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 160.00 && quatroDobras <= 164.99){
+        totalSomatorio = Number(43.60)
+    }
+    if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 165.00 && quatroDobras <= 169.99){
+        totalSomatorio = Number(44.00)
+    }
+    if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 170.00 && quatroDobras <= 174.99){
+        totalSomatorio = Number(44.40)
+    }
+    if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 175.00 && quatroDobras <= 179.99){
+        totalSomatorio = Number(44.80)
+    }
+    if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 180.00 && quatroDobras <= 184.99){
+        totalSomatorio = Number(45.20)
+    }
+    if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 185.00 && quatroDobras <= 189.99){
+        totalSomatorio = Number(45.60)
+    }
+    if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 190.00 && quatroDobras <= 194.99){
+        totalSomatorio = Number(45.90)
+    }
+    if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 195.00 && quatroDobras <= 199.99){
+        totalSomatorio = Number(46.20)
+    }
+    if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 200.00 && quatroDobras <= 204.99){
+        totalSomatorio = Number(46.50)
+    }
+    // Tabela de somatório das 4 dobras mulheres de 40 a 49 anos
+    if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 20.00 && quatroDobras <= 24.99){
+        totalSomatorio = Number(19.80)
+    }
+    if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 25.00 && quatroDobras <= 29.99){
+        totalSomatorio = Number(22.22)
+    }
+    if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 30.00 && quatroDobras <= 34.99){
+        totalSomatorio = Number(24.50)
+    }
+    if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 35.00 && quatroDobras <= 39.99){
+        totalSomatorio = Number(26.40)
+    }
+    if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 40.00 && quatroDobras <= 44.99){
+        totalSomatorio = Number(28.20)
+    }
+    if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 45.00 && quatroDobras <= 49.99){
+        totalSomatorio = Number(29.60)
+    }
+    if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 50.00 && quatroDobras <= 54.99){
+        totalSomatorio = Number(31.00)
+    }
+    if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 55.00 && quatroDobras <= 59.99){
+        totalSomatorio = Number(32.10)
+    }
+    if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 60.00 && quatroDobras <= 64.99){
+        totalSomatorio = Number(33.20)
+    }
+    if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 65.00 && quatroDobras <= 69.99){
+        totalSomatorio = Number(34.10)
+    }
+    if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 70.00 && quatroDobras <= 74.99){
+        totalSomatorio = Number(35.00)
+    }
+    if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 75.00 && quatroDobras <= 79.99){
+        totalSomatorio = Number(35.90)
+    }
+    if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 80.00 && quatroDobras <= 84.99){
+        totalSomatorio = Number(36.70)
+    }
+    if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 85.00 && quatroDobras <= 89.99){
+        totalSomatorio = Number(37.50)
+    }
+    if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 90.00 && quatroDobras <= 94.99){
+        totalSomatorio = Number(38.30)
+    }
+    if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 95.00 && quatroDobras <= 99.99){
+        totalSomatorio = Number(39.00)
+    }
+    if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 100.00 && quatroDobras <= 104.99){
+        totalSomatorio = Number(39.70)
+    }
+    if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 105.00 && quatroDobras <= 109.99){
+        totalSomatorio = Number(40.40)
+    }
+    if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 110.00 && quatroDobras <= 114.99){
+        totalSomatorio = Number(41.00)
+    }
+    if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 115.00 && quatroDobras <= 119.99){
+        totalSomatorio = Number(41.50)
+    }
+    if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 120.00 && quatroDobras <= 124.99){
+        totalSomatorio = Number(42.00)
+    }
+    if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 125.00 && quatroDobras <= 129.99){
+        totalSomatorio = Number(42.50)
+    }
+    if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 130.00 && quatroDobras <= 134.99){
+        totalSomatorio = Number(43.00)
+    }
+    if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 135.00 && quatroDobras <= 139.99){
+        totalSomatorio = Number(43.50)
+    }
+    if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 140.00 && quatroDobras <= 144.99){
+        totalSomatorio = Number(44.00)
+    }
+    if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 145.00 && quatroDobras <= 149.99){
+        totalSomatorio = Number(44.50)
+    }
+    if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 150.00 && quatroDobras <= 154.99){
+        totalSomatorio = Number(45.00)
+    }
+    if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 155.00 && quatroDobras <= 159.99){
+        totalSomatorio = Number(45.40)
+    }
+    if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 160.00 && quatroDobras <= 164.99){
+        totalSomatorio = Number(45.80)
+    }
+    if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 165.00 && quatroDobras <= 169.99){
+        totalSomatorio = Number(46.00)
+    }
+    if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 170.00 && quatroDobras <= 174.99){
+        totalSomatorio = Number(46.60)
+    }
+    if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 175.00 && quatroDobras <= 179.99){
+        totalSomatorio = Number(47.00)
+    }
+    if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 180.00 && quatroDobras <= 184.99){
+        totalSomatorio = Number(47.40)
+    }
+    if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 185.00 && quatroDobras <= 189.99){
+        totalSomatorio = Number(47.80)
+    }
+    if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 190.00 && quatroDobras <= 194.99){
+        totalSomatorio = Number(48.20)
+    }
+    if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 195.00 && quatroDobras <= 199.99){
+        totalSomatorio = Number(48.50)
+    }
+    if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 200.00 && quatroDobras <= 204.99){
+        totalSomatorio = Number(48.80)
+    }
+    if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 205.00 && quatroDobras <= 209.99){
+        totalSomatorio = Number(49.10)
+    }
+    if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 210.00 && quatroDobras <= 214.99){
+        totalSomatorio = Number(49.40)
+    }
+    // Tabela de somatório das 4 dobras mulheres 50+ anos
+
+
     // saída de resultados
     outPI.textContent = `1. Peso Ideal/Teórico (Kg): ${PICalc.toFixed(2)}`;
     outPSMin.textContent = `2.1. Peso Saudável Mínimo (Kg): ${psMin.toFixed(2)}`
@@ -1785,6 +2119,8 @@ function calculosAntropometricos(){
     outRCQ.textContent = `21. RCQ: ${rcq.toFixed(2)}`
     outRCQClass.textContent = `21.1. Classificação RCQ: ${rcqClass}`
     outEtnia.textContent = `22. Classificação de riscos segundo a CC e CA: ${ccClas}`
+    outQuatroDobras.textContent = `23. Somatório 4 dobras (mm): ${quatroDobras.toFixed(2)}`
+    outTotalSomatorio.textContent = `23.1. %GC: ${totalSomatorio.toFixed(2)}`
 
 }
 var btCalcular = document.getElementById("btCalcular");
