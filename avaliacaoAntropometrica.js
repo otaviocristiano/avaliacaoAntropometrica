@@ -1765,841 +1765,877 @@ function calculosAntropometricos(){
     // Tabela de somatório das 4 dobras para mulheres
     // Tabela de somatório 4 dobras mulheres de 16 a 29 anos
     if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 15.00 && quatroDobras <= 19.99){
-        totalSomatorio = Number(10.50)
+        gorduraCorporal = Number(10.50)
     }
     if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 20.00 && quatroDobras <= 24.99){
-        totalSomatorio = Number(14.10)
+        gorduraCorporal = Number(14.10)
     }
     if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 25.00 && quatroDobras <= 29.99){
-        totalSomatorio = Number(16.80)
+        gorduraCorporal = Number(16.80)
     }
     if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 30.00 && quatroDobras <= 34.99){
-        totalSomatorio = Number(19.50)
+        gorduraCorporal = Number(19.50)
     }
     if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 35.00 && quatroDobras <= 39.99){
-        totalSomatorio = Number(21.50)
+        gorduraCorporal = Number(21.50)
     }
     if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 40.00 && quatroDobras <= 44.99){
-        totalSomatorio = Number(23.40)
+        gorduraCorporal = Number(23.40)
     }
     if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 45.00 && quatroDobras <= 49.99){
-        totalSomatorio = Number(25.00)
+        gorduraCorporal = Number(25.00)
     }
     if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 50.00 && quatroDobras <= 54.99){
-        totalSomatorio = Number(26.50)
+        gorduraCorporal = Number(26.50)
     }
     if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 55.00 && quatroDobras <= 59.99){
-        totalSomatorio = Number(27.80)
+        gorduraCorporal = Number(27.80)
     }
     if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 60.00 && quatroDobras <= 64.99){
-        totalSomatorio = Number(29.10)
+        gorduraCorporal = Number(29.10)
     }
     if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 65.00 && quatroDobras <= 69.99){
-        totalSomatorio = Number(30.20)
+        gorduraCorporal = Number(30.20)
     }
     if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 70.00 && quatroDobras <= 74.99){
-        totalSomatorio = Number(31.20)
+        gorduraCorporal = Number(31.20)
     }
     if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 75.00 && quatroDobras <= 79.99){
-        totalSomatorio = Number(32.20)
+        gorduraCorporal = Number(32.20)
     }
     if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 80.00 && quatroDobras <= 84.99){
-        totalSomatorio = Number(33.10)
+        gorduraCorporal = Number(33.10)
     }
     if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 85.00 && quatroDobras <= 89.99){
-        totalSomatorio = Number(34.00)
+        gorduraCorporal = Number(34.00)
     }
     if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 90.00 && quatroDobras <= 94.99){
-        totalSomatorio = Number(34.80)
+        gorduraCorporal = Number(34.80)
     }
     if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 95.00 && quatroDobras <= 99.99){
-        totalSomatorio = Number(35.60)
+        gorduraCorporal = Number(35.60)
     }
     if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 100.00 && quatroDobras <= 104.99){
-        totalSomatorio = Number(36.40)
+        gorduraCorporal = Number(36.40)
     }
     if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 105.00 && quatroDobras <= 109.99){
-        totalSomatorio = Number(37.10)
+        gorduraCorporal = Number(37.10)
     }
     if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 110.00 && quatroDobras <= 114.99){
-        totalSomatorio = Number(37.80)
+        gorduraCorporal = Number(37.80)
     }
     if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 115.00 && quatroDobras <= 119.99){
-        totalSomatorio = Number(38.40)
+        gorduraCorporal = Number(38.40)
     }
     if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 120.00 && quatroDobras <= 124.99){
-        totalSomatorio = Number(39.00)
+        gorduraCorporal = Number(39.00)
     }
     if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 125.00 && quatroDobras <= 129.99){
-        totalSomatorio = Number(39.60)
+        gorduraCorporal = Number(39.60)
     }
     if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 130.00 && quatroDobras <= 134.99){
-        totalSomatorio = Number(40.20)
+        gorduraCorporal = Number(40.20)
     }
     if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 135.00 && quatroDobras <= 139.99){
-        totalSomatorio = Number(40.80)
+        gorduraCorporal = Number(40.80)
     }
     if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 140.00 && quatroDobras <= 144.99){
-        totalSomatorio = Number(41.30)
+        gorduraCorporal = Number(41.30)
     }
     if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 145.00 && quatroDobras <= 149.99){
-        totalSomatorio = Number(41.80)
+        gorduraCorporal = Number(41.80)
     }
     if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 150.00 && quatroDobras <= 154.99){
-        totalSomatorio = Number(42.30)
+        gorduraCorporal = Number(42.30)
     }
     if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 155.00 && quatroDobras <= 159.99){
-        totalSomatorio = Number(42.80)
+        gorduraCorporal = Number(42.80)
     }
     if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 160.00 && quatroDobras <= 164.99){
-        totalSomatorio = Number(43.30)
+        gorduraCorporal = Number(43.30)
     }
     if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 165.00 && quatroDobras <= 169.99){
-        totalSomatorio = Number(43.70)
+        gorduraCorporal = Number(43.70)
     }
     if(idade >= 16.00 && idade <= 29.00 && (feminino == true) && quatroDobras >= 170.00 && quatroDobras <= 174.99){
-        totalSomatorio = Number(44.10)
+        gorduraCorporal = Number(44.10)
     }
     // Tabela de somátorio 4 dobras mulheres 30 a 39 anos
     if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 20.00 && quatroDobras <= 24.99){
-        totalSomatorio = Number(17.00)
+        gorduraCorporal = Number(17.00)
     }
     if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 25.00 && quatroDobras <= 29.99){
-        totalSomatorio = Number(19.40)
+        gorduraCorporal = Number(19.40)
     }
     if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 30.00 && quatroDobras <= 34.99){
-        totalSomatorio = Number(21.80)
+        gorduraCorporal = Number(21.80)
     }
     if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 35.00 && quatroDobras <= 39.99){
-        totalSomatorio = Number(23.70)
+        gorduraCorporal = Number(23.70)
     }
     if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 40.00 && quatroDobras <= 44.99){
-        totalSomatorio = Number(25.50)
+        gorduraCorporal = Number(25.50)
     }
     if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 45.00 && quatroDobras <= 49.99){
-        totalSomatorio = Number(26.90)
+        gorduraCorporal = Number(26.90)
     }
     if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 50.00 && quatroDobras <= 54.99){
-        totalSomatorio = Number(28.20)
+        gorduraCorporal = Number(28.20)
     }
     if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 55.00 && quatroDobras <= 59.99){
-        totalSomatorio = Number(29.40)
+        gorduraCorporal = Number(29.40)
     }
     if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 60.00 && quatroDobras <= 64.99){
-        totalSomatorio = Number(30.60)
+        gorduraCorporal = Number(30.60)
     }
     if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 65.00 && quatroDobras <= 69.99){
-        totalSomatorio = Number(31.60)
+        gorduraCorporal = Number(31.60)
     }
     if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 70.00 && quatroDobras <= 74.99){
-        totalSomatorio = Number(32.50)
+        gorduraCorporal = Number(32.50)
     }
     if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 75.00 && quatroDobras <= 79.99){
-        totalSomatorio = Number(33.40)
+        gorduraCorporal = Number(33.40)
     }
     if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 80.00 && quatroDobras <= 84.99){
-        totalSomatorio = Number(34.30)
+        gorduraCorporal = Number(34.30)
     }
     if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 85.00 && quatroDobras <= 89.99){
-        totalSomatorio = Number(35.10)
+        gorduraCorporal = Number(35.10)
     }
     if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 90.00 && quatroDobras <= 94.99){
-        totalSomatorio = Number(35.80)
+        gorduraCorporal = Number(35.80)
     }
     if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 95.00 && quatroDobras <= 99.99){
-        totalSomatorio = Number(36.50)
+        gorduraCorporal = Number(36.50)
     }
     if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 100.00 && quatroDobras <= 104.99){
-        totalSomatorio = Number(37.20)
+        gorduraCorporal = Number(37.20)
     }
     if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 105.00 && quatroDobras <= 109.99){
-        totalSomatorio = Number(37.90)
+        gorduraCorporal = Number(37.90)
     }
     if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 110.00 && quatroDobras <= 114.99){
-        totalSomatorio = Number(38.60)
+        gorduraCorporal = Number(38.60)
     }
     if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 115.00 && quatroDobras <= 119.99){
-        totalSomatorio = Number(39.10)
+        gorduraCorporal = Number(39.10)
     }
     if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 120.00 && quatroDobras <= 124.99){
-        totalSomatorio = Number(39.60)
+        gorduraCorporal = Number(39.60)
     }
     if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 125.00 && quatroDobras <= 129.99){
-        totalSomatorio = Number(40.10)
+        gorduraCorporal = Number(40.10)
     }
     if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 130.00 && quatroDobras <= 134.99){
-        totalSomatorio = Number(40.60)
+        gorduraCorporal = Number(40.60)
     }
     if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 135.00 && quatroDobras <= 139.99){
-        totalSomatorio = Number(41.10)
+        gorduraCorporal = Number(41.10)
     }
     if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 140.00 && quatroDobras <= 144.99){
-        totalSomatorio = Number(41.60)
+        gorduraCorporal = Number(41.60)
     }
     if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 145.00 && quatroDobras <= 149.99){
-        totalSomatorio = Number(42.10)
+        gorduraCorporal = Number(42.10)
     }
     if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 150.00 && quatroDobras <= 154.99){
-        totalSomatorio = Number(42.60)
+        gorduraCorporal = Number(42.60)
     }
     if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 155.00 && quatroDobras <= 159.99){
-        totalSomatorio = Number(43.10)
+        gorduraCorporal = Number(43.10)
     }
     if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 160.00 && quatroDobras <= 164.99){
-        totalSomatorio = Number(43.60)
+        gorduraCorporal = Number(43.60)
     }
     if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 165.00 && quatroDobras <= 169.99){
-        totalSomatorio = Number(44.00)
+        gorduraCorporal = Number(44.00)
     }
     if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 170.00 && quatroDobras <= 174.99){
-        totalSomatorio = Number(44.40)
+        gorduraCorporal = Number(44.40)
     }
     if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 175.00 && quatroDobras <= 179.99){
-        totalSomatorio = Number(44.80)
+        gorduraCorporal = Number(44.80)
     }
     if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 180.00 && quatroDobras <= 184.99){
-        totalSomatorio = Number(45.20)
+        gorduraCorporal = Number(45.20)
     }
     if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 185.00 && quatroDobras <= 189.99){
-        totalSomatorio = Number(45.60)
+        gorduraCorporal = Number(45.60)
     }
     if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 190.00 && quatroDobras <= 194.99){
-        totalSomatorio = Number(45.90)
+        gorduraCorporal = Number(45.90)
     }
     if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 195.00 && quatroDobras <= 199.99){
-        totalSomatorio = Number(46.20)
+        gorduraCorporal = Number(46.20)
     }
     if(idade >= 30.00 && idade <= 39.00 && (feminino == true) && quatroDobras >= 200.00 && quatroDobras <= 204.99){
-        totalSomatorio = Number(46.50)
+        gorduraCorporal = Number(46.50)
     }
     // Tabela de somatório das 4 dobras mulheres de 40 a 49 anos
     if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 20.00 && quatroDobras <= 24.99){
-        totalSomatorio = Number(19.80)
+        gorduraCorporal = Number(19.80)
     }
     if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 25.00 && quatroDobras <= 29.99){
-        totalSomatorio = Number(22.22)
+        gorduraCorporal = Number(22.22)
     }
     if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 30.00 && quatroDobras <= 34.99){
-        totalSomatorio = Number(24.50)
+        gorduraCorporal = Number(24.50)
     }
     if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 35.00 && quatroDobras <= 39.99){
-        totalSomatorio = Number(26.40)
+        gorduraCorporal = Number(26.40)
     }
     if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 40.00 && quatroDobras <= 44.99){
-        totalSomatorio = Number(28.20)
+        gorduraCorporal = Number(28.20)
     }
     if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 45.00 && quatroDobras <= 49.99){
-        totalSomatorio = Number(29.60)
+        gorduraCorporal = Number(29.60)
     }
     if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 50.00 && quatroDobras <= 54.99){
-        totalSomatorio = Number(31.00)
+        gorduraCorporal = Number(31.00)
     }
     if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 55.00 && quatroDobras <= 59.99){
-        totalSomatorio = Number(32.10)
+        gorduraCorporal = Number(32.10)
     }
     if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 60.00 && quatroDobras <= 64.99){
-        totalSomatorio = Number(33.20)
+        gorduraCorporal = Number(33.20)
     }
     if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 65.00 && quatroDobras <= 69.99){
-        totalSomatorio = Number(34.10)
+        gorduraCorporal = Number(34.10)
     }
     if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 70.00 && quatroDobras <= 74.99){
-        totalSomatorio = Number(35.00)
+        gorduraCorporal = Number(35.00)
     }
     if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 75.00 && quatroDobras <= 79.99){
-        totalSomatorio = Number(35.90)
+        gorduraCorporal = Number(35.90)
     }
     if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 80.00 && quatroDobras <= 84.99){
-        totalSomatorio = Number(36.70)
+        gorduraCorporal = Number(36.70)
     }
     if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 85.00 && quatroDobras <= 89.99){
-        totalSomatorio = Number(37.50)
+        gorduraCorporal = Number(37.50)
     }
     if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 90.00 && quatroDobras <= 94.99){
-        totalSomatorio = Number(38.30)
+        gorduraCorporal = Number(38.30)
     }
     if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 95.00 && quatroDobras <= 99.99){
-        totalSomatorio = Number(39.00)
+        gorduraCorporal = Number(39.00)
     }
     if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 100.00 && quatroDobras <= 104.99){
-        totalSomatorio = Number(39.70)
+        gorduraCorporal = Number(39.70)
     }
     if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 105.00 && quatroDobras <= 109.99){
-        totalSomatorio = Number(40.40)
+        gorduraCorporal = Number(40.40)
     }
     if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 110.00 && quatroDobras <= 114.99){
-        totalSomatorio = Number(41.00)
+        gorduraCorporal = Number(41.00)
     }
     if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 115.00 && quatroDobras <= 119.99){
-        totalSomatorio = Number(41.50)
+        gorduraCorporal = Number(41.50)
     }
     if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 120.00 && quatroDobras <= 124.99){
-        totalSomatorio = Number(42.00)
+        gorduraCorporal = Number(42.00)
     }
     if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 125.00 && quatroDobras <= 129.99){
-        totalSomatorio = Number(42.50)
+        gorduraCorporal = Number(42.50)
     }
     if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 130.00 && quatroDobras <= 134.99){
-        totalSomatorio = Number(43.00)
+        gorduraCorporal = Number(43.00)
     }
     if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 135.00 && quatroDobras <= 139.99){
-        totalSomatorio = Number(43.50)
+        gorduraCorporal = Number(43.50)
     }
     if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 140.00 && quatroDobras <= 144.99){
-        totalSomatorio = Number(44.00)
+        gorduraCorporal = Number(44.00)
     }
     if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 145.00 && quatroDobras <= 149.99){
-        totalSomatorio = Number(44.50)
+        gorduraCorporal = Number(44.50)
     }
     if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 150.00 && quatroDobras <= 154.99){
-        totalSomatorio = Number(45.00)
+        gorduraCorporal = Number(45.00)
     }
     if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 155.00 && quatroDobras <= 159.99){
-        totalSomatorio = Number(45.40)
+        gorduraCorporal = Number(45.40)
     }
     if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 160.00 && quatroDobras <= 164.99){
-        totalSomatorio = Number(45.80)
+        gorduraCorporal = Number(45.80)
     }
     if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 165.00 && quatroDobras <= 169.99){
-        totalSomatorio = Number(46.00)
+        gorduraCorporal = Number(46.00)
     }
     if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 170.00 && quatroDobras <= 174.99){
-        totalSomatorio = Number(46.60)
+        gorduraCorporal = Number(46.60)
     }
     if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 175.00 && quatroDobras <= 179.99){
-        totalSomatorio = Number(47.00)
+        gorduraCorporal = Number(47.00)
     }
     if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 180.00 && quatroDobras <= 184.99){
-        totalSomatorio = Number(47.40)
+        gorduraCorporal = Number(47.40)
     }
     if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 185.00 && quatroDobras <= 189.99){
-        totalSomatorio = Number(47.80)
+        gorduraCorporal = Number(47.80)
     }
     if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 190.00 && quatroDobras <= 194.99){
-        totalSomatorio = Number(48.20)
+        gorduraCorporal = Number(48.20)
     }
     if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 195.00 && quatroDobras <= 199.99){
-        totalSomatorio = Number(48.50)
+        gorduraCorporal = Number(48.50)
     }
     if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 200.00 && quatroDobras <= 204.99){
-        totalSomatorio = Number(48.80)
+        gorduraCorporal = Number(48.80)
     }
     if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 205.00 && quatroDobras <= 209.99){
-        totalSomatorio = Number(49.10)
+        gorduraCorporal = Number(49.10)
     }
     if(idade >= 40.00 && idade <= 49.00 && (feminino == true) && quatroDobras >= 210.00 && quatroDobras <= 214.99){
-        totalSomatorio = Number(49.40)
+        gorduraCorporal = Number(49.40)
     }
     // Tabela de somatório das 4 dobras mulheres 50+ anos
     if(idade >= 50.00 && (feminino == true) && quatroDobras >= 20.00 && quatroDobras <= 24.99){
-        totalSomatorio = Number(21.40)
+        gorduraCorporal = Number(21.40)
     }
     if(idade >= 50.00 && (feminino == true) && quatroDobras >= 25.00 && quatroDobras <= 29.99){
-        totalSomatorio = Number(24.00)
+        gorduraCorporal = Number(24.00)
     }
     if(idade >= 50.00 && (feminino == true) && quatroDobras >= 30.00 && quatroDobras <= 34.99){
-        totalSomatorio = Number(26.60)
+        gorduraCorporal = Number(26.60)
     }
     if(idade >= 50.00 && (feminino == true) && quatroDobras >= 35.00 && quatroDobras <= 39.99){
-        totalSomatorio = Number(28.50)
+        gorduraCorporal = Number(28.50)
     }
     if(idade >= 50.00 && (feminino == true) && quatroDobras >= 40.00 && quatroDobras <= 44.99){
-        totalSomatorio = Number(30.30)
+        gorduraCorporal = Number(30.30)
     }
     if(idade >= 50.00 && (feminino == true) && quatroDobras >= 45.00 && quatroDobras <= 49.99){
-        totalSomatorio = Number(31.90)
+        gorduraCorporal = Number(31.90)
     }
     if(idade >= 50.00 && (feminino == true) && quatroDobras >= 50.00 && quatroDobras <= 54.99){
-        totalSomatorio = Number(33.40)
+        gorduraCorporal = Number(33.40)
     }
     if(idade >= 50.00 && (feminino == true) && quatroDobras >= 55.00 && quatroDobras <= 59.99){
-        totalSomatorio = Number(34.60)
+        gorduraCorporal = Number(34.60)
     }
     if(idade >= 50.00 && (feminino == true) && quatroDobras >= 60.00 && quatroDobras <= 64.99){
-        totalSomatorio = Number(35.70)
+        gorduraCorporal = Number(35.70)
     }
     if(idade >= 50.00 && (feminino == true) && quatroDobras >= 65.00 && quatroDobras <= 69.99){
-        totalSomatorio = Number(36.70)
+        gorduraCorporal = Number(36.70)
     }
     if(idade >= 50.00 && (feminino == true) && quatroDobras >= 70.00 && quatroDobras <= 74.99){
-        totalSomatorio = Number(37.70)
+        gorduraCorporal = Number(37.70)
     }
     if(idade >= 50.00 && (feminino == true) && quatroDobras >= 75.00 && quatroDobras <= 79.99){
-        totalSomatorio = Number(38.70)
+        gorduraCorporal = Number(38.70)
     }
     if(idade >= 50.00 && (feminino == true) && quatroDobras >= 80.00 && quatroDobras <= 84.99){
-        totalSomatorio = Number(39.60)
+        gorduraCorporal = Number(39.60)
     }
     if(idade >= 50.00 && (feminino == true) && quatroDobras >= 85.00 && quatroDobras <= 89.99){
-        totalSomatorio = Number(40.40)
+        gorduraCorporal = Number(40.40)
     }
     if(idade >= 50.00 && (feminino == true) && quatroDobras >= 90.00 && quatroDobras <= 94.99){
-        totalSomatorio = Number(41.20)
+        gorduraCorporal = Number(41.20)
     }
     if(idade >= 50.00 && (feminino == true) && quatroDobras >= 95.00 && quatroDobras <= 99.99){
-        totalSomatorio = Number(41.90)
+        gorduraCorporal = Number(41.90)
     }
     if(idade >= 50.00 && (feminino == true) && quatroDobras >= 100.00 && quatroDobras <= 104.99){
-        totalSomatorio = Number(42.60)
+        gorduraCorporal = Number(42.60)
     }
     if(idade >= 50.00 && (feminino == true) && quatroDobras >= 105.00 && quatroDobras <= 109.99){
-        totalSomatorio = Number(43.30)
+        gorduraCorporal = Number(43.30)
     }
     if(idade >= 50.00 && (feminino == true) && quatroDobras >= 110.00 && quatroDobras <= 114.99){
-        totalSomatorio = Number(43.90)
+        gorduraCorporal = Number(43.90)
     }
     if(idade >= 50.00 && (feminino == true) && quatroDobras >= 115.00 && quatroDobras <= 119.99){
-        totalSomatorio = Number(44.50)
+        gorduraCorporal = Number(44.50)
     }
     if(idade >= 50.00 && (feminino == true) && quatroDobras >= 120.00 && quatroDobras <= 124.99){
-        totalSomatorio = Number(45.10)
+        gorduraCorporal = Number(45.10)
     }
     if(idade >= 50.00 && (feminino == true) && quatroDobras >= 125.00 && quatroDobras <= 129.99){
-        totalSomatorio = Number(45.70)
+        gorduraCorporal = Number(45.70)
     }
     if(idade >= 50.00 && (feminino == true) && quatroDobras >= 130.00 && quatroDobras <= 134.99){
-        totalSomatorio = Number(46.20)
+        gorduraCorporal = Number(46.20)
     }
     if(idade >= 50.00 && (feminino == true) && quatroDobras >= 135.00 && quatroDobras <= 139.99){
-        totalSomatorio = Number(46.70)
+        gorduraCorporal = Number(46.70)
     }
     if(idade >= 50.00 && (feminino == true) && quatroDobras >= 140.00 && quatroDobras <= 144.99){
-        totalSomatorio = Number(47.20)
+        gorduraCorporal = Number(47.20)
     }
     if(idade >= 50.00 && (feminino == true) && quatroDobras >= 145.00 && quatroDobras <= 149.99){
-        totalSomatorio = Number(47.70)
+        gorduraCorporal = Number(47.70)
     }
     if(idade >= 50.00 && (feminino == true) && quatroDobras >= 150.00 && quatroDobras <= 154.99){
-        totalSomatorio = Number(48.20)
+        gorduraCorporal = Number(48.20)
     }
     if(idade >= 50.00 && (feminino == true) && quatroDobras >= 155.00 && quatroDobras <= 159.99){
-        totalSomatorio = Number(48.70)
+        gorduraCorporal = Number(48.70)
     }
     if(idade >= 50.00 && (feminino == true) && quatroDobras >= 160.00 && quatroDobras <= 164.99){
-        totalSomatorio = Number(49.20)
+        gorduraCorporal = Number(49.20)
     }
     if(idade >= 50.00 && (feminino == true) && quatroDobras >= 165.00 && quatroDobras <= 169.99){
-        totalSomatorio = Number(47.20)
+        gorduraCorporal = Number(47.20)
     }
     if(idade >= 50.00 && (feminino == true) && quatroDobras >= 170.00 && quatroDobras <= 174.99){
-        totalSomatorio = Number(50.00)
+        gorduraCorporal = Number(50.00)
     }
     if(idade >= 50.00 && (feminino == true) && quatroDobras >= 175.00 && quatroDobras <= 179.99){
-        totalSomatorio = Number(50.40)
+        gorduraCorporal = Number(50.40)
     }
     if(idade >= 50.00 && (feminino == true) && quatroDobras >= 180.00 && quatroDobras <= 184.99){
-        totalSomatorio = Number(50.80)
+        gorduraCorporal = Number(50.80)
     }
     if(idade >= 50.00 && (feminino == true) && quatroDobras >= 185.00 && quatroDobras <= 189.99){
-        totalSomatorio = Number(51.20)
+        gorduraCorporal = Number(51.20)
     }
     if(idade >= 50.00 && (feminino == true) && quatroDobras >= 190.00 && quatroDobras <= 194.99){
-        totalSomatorio = Number(51.60)
+        gorduraCorporal = Number(51.60)
     }
     if(idade >= 50.00 && (feminino == true) && quatroDobras >= 195.00 && quatroDobras <= 199.99){
-        totalSomatorio = Number(52.00)
+        gorduraCorporal = Number(52.00)
     }
     if(idade >= 50.00 && (feminino == true) && quatroDobras >= 200.00 && quatroDobras <= 204.99){
-        totalSomatorio = Number(52.40)
+        gorduraCorporal = Number(52.40)
     }
     if(idade >= 50.00 && (feminino == true) && quatroDobras >= 205.00 && quatroDobras <= 209.99){
-        totalSomatorio = Number(52.70)
+        gorduraCorporal = Number(52.70)
     }
     if(idade >= 50.00 && (feminino == true) && quatroDobras >= 210.00 && quatroDobras <= 214.99){
-        totalSomatorio = Number(53.00)
+        gorduraCorporal = Number(53.00)
     }
 
     // Tabela de somatório das 4 dobras para homens
     // Tabela de somatório 4 dobras homens de 17 a 29 anos
     if(idade >= 17.00 && idade <= 29.00 && (masculino == true) && quatroDobras >= 15.00 && quatroDobras <= 19.99){
-        totalSomatorio = Number(4.80)
+        gorduraCorporal = Number(4.80)
     }
     if(idade >= 17.00 && idade <= 29.00 && (masculino == true) && quatroDobras >= 20.00 && quatroDobras <= 24.99){
-        totalSomatorio = Number(8.10)
+        gorduraCorporal = Number(8.10)
     }
     if(idade >= 17.00 && idade <= 29.00 && (masculino == true) && quatroDobras >= 25.00 && quatroDobras <= 29.99){
-        totalSomatorio = Number(10.50)
+        gorduraCorporal = Number(10.50)
     }
     if(idade >= 17.00 && idade <= 29.00 && (masculino == true) && quatroDobras >= 30.00 && quatroDobras <= 34.99){
-        totalSomatorio = Number(12.90)
+        gorduraCorporal = Number(12.90)
     }
     if(idade >= 17.00 && idade <= 29.00 && (masculino == true) && quatroDobras >= 35.00 && quatroDobras <= 39.99){
-        totalSomatorio = Number(14.70)
+        gorduraCorporal = Number(14.70)
     }
     if(idade >= 17.00 && idade <= 29.00 && (masculino == true) && quatroDobras >= 40.00 && quatroDobras <= 44.99){
-        totalSomatorio = Number(16.40)
+        gorduraCorporal = Number(16.40)
     }
     if(idade >= 17.00 && idade <= 29.00 && (masculino == true) && quatroDobras >= 45.00 && quatroDobras <= 49.99){
-        totalSomatorio = Number(17.70)
+        gorduraCorporal = Number(17.70)
     }
     if(idade >= 17.00 && idade <= 29.00 && (masculino == true) && quatroDobras >= 50.00 && quatroDobras <= 54.99){
-        totalSomatorio = Number(19.00)
+        gorduraCorporal = Number(19.00)
     }
     if(idade >= 17.00 && idade <= 29.00 && (masculino == true) && quatroDobras >= 55.00 && quatroDobras <= 59.99){
-        totalSomatorio = Number(20.10)
+        gorduraCorporal = Number(20.10)
     }
     if(idade >= 17.00 && idade <= 29.00 && (masculino == true) && quatroDobras >= 60.00 && quatroDobras <= 64.99){
-        totalSomatorio = Number(21.20)
+        gorduraCorporal = Number(21.20)
     }
     if(idade >= 17.00 && idade <= 29.00 && (masculino == true) && quatroDobras >= 65.00 && quatroDobras <= 69.99){
-        totalSomatorio = Number(22.20)
+        gorduraCorporal = Number(22.20)
     }
     if(idade >= 17.00 && idade <= 29.00 && (masculino == true) && quatroDobras >= 70.00 && quatroDobras <= 74.99){
-        totalSomatorio = Number(23.10)
+        gorduraCorporal = Number(23.10)
     }
     if(idade >= 17.00 && idade <= 29.00 && (masculino == true) && quatroDobras >= 75.00 && quatroDobras <= 79.99){
-        totalSomatorio = Number(24.00)
+        gorduraCorporal = Number(24.00)
     }
     if(idade >= 17.00 && idade <= 29.00 && (masculino == true) && quatroDobras >= 80.00 && quatroDobras <= 84.99){
-        totalSomatorio = Number(24.80)
+        gorduraCorporal = Number(24.80)
     }
     if(idade >= 17.00 && idade <= 29.00 && (masculino == true) && quatroDobras >= 85.00 && quatroDobras <= 89.99){
-        totalSomatorio = Number(25.50)
+        gorduraCorporal = Number(25.50)
     }
     if(idade >= 17.00 && idade <= 29.00 && (masculino == true) && quatroDobras >= 90.00 && quatroDobras <= 94.99){
-        totalSomatorio = Number(26.20)
+        gorduraCorporal = Number(26.20)
     }
     if(idade >= 17.00 && idade <= 29.00 && (masculino == true) && quatroDobras >= 95.00 && quatroDobras <= 99.99){
-        totalSomatorio = Number(26.90)
+        gorduraCorporal = Number(26.90)
     }
     if(idade >= 17.00 && idade <= 29.00 && (masculino == true) && quatroDobras >= 100.00 && quatroDobras <= 104.99){
-        totalSomatorio = Number(27.60)
+        gorduraCorporal = Number(27.60)
     }
     if(idade >= 17.00 && idade <= 29.00 && (masculino == true) && quatroDobras >= 105.00 && quatroDobras <= 109.99){
-        totalSomatorio = Number(28.20)
+        gorduraCorporal = Number(28.20)
     }
     if(idade >= 17.00 && idade <= 29.00 && (masculino == true) && quatroDobras >= 110.00 && quatroDobras <= 114.99){
-        totalSomatorio = Number(28.80)
+        gorduraCorporal = Number(28.80)
     }
     if(idade >= 17.00 && idade <= 29.00 && (masculino == true) && quatroDobras >= 115.00 && quatroDobras <= 119.99){
-        totalSomatorio = Number(29.90)
+        gorduraCorporal = Number(29.90)
     }
     if(idade >= 17.00 && idade <= 29.00 && (masculino == true) && quatroDobras >= 120.00 && quatroDobras <= 124.99){
-        totalSomatorio = Number(30.00)
+        gorduraCorporal = Number(30.00)
     }
     if(idade >= 17.00 && idade <= 29.00 && (masculino == true) && quatroDobras >= 125.00 && quatroDobras <= 129.99){
-        totalSomatorio = Number(31.00)
+        gorduraCorporal = Number(31.00)
     }
     if(idade >= 17.00 && idade <= 29.00 && (masculino == true) && quatroDobras >= 130.00 && quatroDobras <= 134.99){
-        totalSomatorio = Number(31.50)
+        gorduraCorporal = Number(31.50)
     }
     if(idade >= 17.00 && idade <= 29.00 && (masculino == true) && quatroDobras >= 135.00 && quatroDobras <= 139.99){
-        totalSomatorio = Number(32.00)
+        gorduraCorporal = Number(32.00)
     }
     if(idade >= 17.00 && idade <= 29.00 && (masculino == true) && quatroDobras >= 140.00 && quatroDobras <= 144.99){
-        totalSomatorio = Number(32.50)
+        gorduraCorporal = Number(32.50)
     }
     if(idade >= 17.00 && idade <= 29.00 && (masculino == true) && quatroDobras >= 145.00 && quatroDobras <= 149.99){
-        totalSomatorio = Number(32.90)
+        gorduraCorporal = Number(32.90)
     }
     if(idade >= 17.00 && idade <= 29.00 && (masculino == true) && quatroDobras >= 150.00 && quatroDobras <= 154.99){
-        totalSomatorio = Number(33.30)
+        gorduraCorporal = Number(33.30)
     }
     if(idade >= 17.00 && idade <= 29.00 && (masculino == true) && quatroDobras >= 155.00 && quatroDobras <= 159.99){
-        totalSomatorio = Number(33.70)
+        gorduraCorporal = Number(33.70)
     }
     if(idade >= 17.00 && idade <= 29.00 && (masculino == true) && quatroDobras >= 160.00 && quatroDobras <= 164.99){
-        totalSomatorio = Number(34.10)
+        gorduraCorporal = Number(34.10)
     }
     if(idade >= 17.00 && idade <= 29.00 && (masculino == true) && quatroDobras >= 165.00 && quatroDobras <= 169.99){
-        totalSomatorio = Number(34.50)
+        gorduraCorporal = Number(34.50)
     }
     if(idade >= 17.00 && idade <= 29.00 && (masculino == true) && quatroDobras >= 170.00 && quatroDobras <= 174.99){
-        totalSomatorio = Number(34.90)
+        gorduraCorporal = Number(34.90)
     }
     if(idade >= 17.00 && idade <= 29.00 && (masculino == true) && quatroDobras >= 175.00 && quatroDobras <= 179.99){
-        totalSomatorio = Number(35.30)
+        gorduraCorporal = Number(35.30)
     }
     if(idade >= 17.00 && idade <= 29.00 && (masculino == true) && quatroDobras >= 180.00 && quatroDobras <= 184.99){
-        totalSomatorio = Number(35.60)
+        gorduraCorporal = Number(35.60)
     }
     if(idade >= 17.00 && idade <= 29.00 && (masculino == true) && quatroDobras >= 185.00 && quatroDobras <= 189.99){
-        totalSomatorio = Number(35.90)
+        gorduraCorporal = Number(35.90)
     }
 
     // Tabela de somatório 4 dobras para homens de 30 a 39 anos
     if(idade >= 30.00 && idade <= 39.00 && (masculino == true) && quatroDobras >= 20.00 && quatroDobras <= 24.99){
-        totalSomatorio = Number(12.20)
+        gorduraCorporal = Number(12.20)
     }
     if(idade >= 30.00 && idade <= 39.00 && (masculino == true) && quatroDobras >= 25.00 && quatroDobras <= 29.99){
-        totalSomatorio = Number(14.20)
+        gorduraCorporal = Number(14.20)
     }
     if(idade >= 30.00 && idade <= 39.00 && (masculino == true) && quatroDobras >= 30.00 && quatroDobras <= 34.99){
-        totalSomatorio = Number(16.20)
+        gorduraCorporal = Number(16.20)
     }
     if(idade >= 30.00 && idade <= 39.00 && (masculino == true) && quatroDobras >= 35.00 && quatroDobras <= 39.99){
-        totalSomatorio = Number(17.70)
+        gorduraCorporal = Number(17.70)
     }
     if(idade >= 30.00 && idade <= 39.00 && (masculino == true) && quatroDobras >= 40.00 && quatroDobras <= 44.99){
-        totalSomatorio = Number(19.20)
+        gorduraCorporal = Number(19.20)
     }
     if(idade >= 30.00 && idade <= 39.00 && (masculino == true) && quatroDobras >= 45.00 && quatroDobras <= 49.99){
-        totalSomatorio = Number(20.40)
+        gorduraCorporal = Number(20.40)
     }
     if(idade >= 30.00 && idade <= 39.00 && (masculino == true) && quatroDobras >= 50.00 && quatroDobras <= 54.99){
-        totalSomatorio = Number(21.50)
+        gorduraCorporal = Number(21.50)
     }
     if(idade >= 30.00 && idade <= 39.00 && (masculino == true) && quatroDobras >= 55.00 && quatroDobras <= 59.99){
-        totalSomatorio = Number(22.50)
+        gorduraCorporal = Number(22.50)
     }
     if(idade >= 30.00 && idade <= 39.00 && (masculino == true) && quatroDobras >= 60.00 && quatroDobras <= 64.99){
-        totalSomatorio = Number(23.50)
+        gorduraCorporal = Number(23.50)
     }
     if(idade >= 30.00 && idade <= 39.00 && (masculino == true) && quatroDobras >= 65.00 && quatroDobras <= 69.99){
-        totalSomatorio = Number(24.30)
+        gorduraCorporal = Number(24.30)
     }
     if(idade >= 30.00 && idade <= 39.00 && (masculino == true) && quatroDobras >= 70.00 && quatroDobras <= 74.99){
-        totalSomatorio = Number(25.10)
+        gorduraCorporal = Number(25.10)
     }
     if(idade >= 30.00 && idade <= 39.00 && (masculino == true) && quatroDobras >= 75.00 && quatroDobras <= 79.99){
-        totalSomatorio = Number(25.90)
+        gorduraCorporal = Number(25.90)
     }
     if(idade >= 30.00 && idade <= 39.00 && (masculino == true) && quatroDobras >= 80.00 && quatroDobras <= 84.99){
-        totalSomatorio = Number(26.60)
+        gorduraCorporal = Number(26.60)
     }
     if(idade >= 30.00 && idade <= 39.00 && (masculino == true) && quatroDobras >= 85.00 && quatroDobras <= 89.99){
-        totalSomatorio = Number(27.20)
+        gorduraCorporal = Number(27.20)
     }
     if(idade >= 30.00 && idade <= 39.00 && (masculino == true) && quatroDobras >= 90.00 && quatroDobras <= 94.99){
-        totalSomatorio = Number(27.80)
+        gorduraCorporal = Number(27.80)
     }
     if(idade >= 30.00 && idade <= 39.00 && (masculino == true) && quatroDobras >= 95.00 && quatroDobras <= 99.99){
-        totalSomatorio = Number(28.40)
+        gorduraCorporal = Number(28.40)
     }
     if(idade >= 30.00 && idade <= 39.00 && (masculino == true) && quatroDobras >= 100.00 && quatroDobras <= 104.99){
-        totalSomatorio = Number(29.00)
+        gorduraCorporal = Number(29.00)
     }
     if(idade >= 30.00 && idade <= 39.00 && (masculino == true) && quatroDobras >= 105.00 && quatroDobras <= 109.99){
-        totalSomatorio = Number(29.60)
+        gorduraCorporal = Number(29.60)
     }
     if(idade >= 30.00 && idade <= 39.00 && (masculino == true) && quatroDobras >= 110.00 && quatroDobras <= 114.99){
-        totalSomatorio = Number(30.10)
+        gorduraCorporal = Number(30.10)
     }
     if(idade >= 30.00 && idade <= 39.00 && (masculino == true) && quatroDobras >= 115.00 && quatroDobras <= 119.99){
-        totalSomatorio = Number(30.60)
+        gorduraCorporal = Number(30.60)
     }
     if(idade >= 30.00 && idade <= 39.00 && (masculino == true) && quatroDobras >= 120.00 && quatroDobras <= 124.99){
-        totalSomatorio = Number(31.10)
+        gorduraCorporal = Number(31.10)
     }
     if(idade >= 30.00 && idade <= 39.00 && (masculino == true) && quatroDobras >= 125.00 && quatroDobras <= 129.99){
-        totalSomatorio = Number(31.50)
+        gorduraCorporal = Number(31.50)
     }
     if(idade >= 30.00 && idade <= 39.00 && (masculino == true) && quatroDobras >= 130.00 && quatroDobras <= 134.99){
-        totalSomatorio = Number(31.90)
+        gorduraCorporal = Number(31.90)
     }
     if(idade >= 30.00 && idade <= 39.00 && (masculino == true) && quatroDobras >= 135.00 && quatroDobras <= 139.99){
-        totalSomatorio = Number(32.30)
+        gorduraCorporal = Number(32.30)
     }
     if(idade >= 30.00 && idade <= 39.00 && (masculino == true) && quatroDobras >= 140.00 && quatroDobras <= 144.99){
-        totalSomatorio = Number(32.70)
+        gorduraCorporal = Number(32.70)
     }
     if(idade >= 30.00 && idade <= 39.00 && (masculino == true) && quatroDobras >= 145.00 && quatroDobras <= 149.99){
-        totalSomatorio = Number(33.10)
+        gorduraCorporal = Number(33.10)
     }
     if(idade >= 30.00 && idade <= 39.00 && (masculino == true) && quatroDobras >= 150.00 && quatroDobras <= 154.99){
-        totalSomatorio = Number(33.50)
+        gorduraCorporal = Number(33.50)
     }
     if(idade >= 30.00 && idade <= 39.00 && (masculino == true) && quatroDobras >= 155.00 && quatroDobras <= 159.99){
-        totalSomatorio = Number(33.90)
+        gorduraCorporal = Number(33.90)
     }
     if(idade >= 30.00 && idade <= 39.00 && (masculino == true) && quatroDobras >= 160.00 && quatroDobras <= 164.99){
-        totalSomatorio = Number(34.30)
+        gorduraCorporal = Number(34.30)
     }
     if(idade >= 30.00 && idade <= 39.00 && (masculino == true) && quatroDobras >= 165.00 && quatroDobras <= 169.99){
-        totalSomatorio = Number(34.60)
+        gorduraCorporal = Number(34.60)
     }
     if(idade >= 30.00 && idade <= 39.00 && (masculino == true) && quatroDobras >= 170.00 && quatroDobras <= 174.99){
-        totalSomatorio = Number(34.80)
+        gorduraCorporal = Number(34.80)
     }
 
     // Tabela de somatório 4 dobras para homens de 40 a 49 anos
     if(idade >= 40.00 && idade <= 49.00 && (masculino == true) && quatroDobras >= 20.00 && quatroDobras <= 24.99){
-        totalSomatorio = Number(12.20)
+        gorduraCorporal = Number(12.20)
     }
     if(idade >= 40.00 && idade <= 49.00 && (masculino == true) && quatroDobras >= 25.00 && quatroDobras <= 29.99){
-        totalSomatorio = Number(15.00)
+        gorduraCorporal = Number(15.00)
     }
     if(idade >= 40.00 && idade <= 49.00 && (masculino == true) && quatroDobras >= 30.00 && quatroDobras <= 34.99){
-        totalSomatorio = Number(17.70)
+        gorduraCorporal = Number(17.70)
     }
     if(idade >= 40.00 && idade <= 49.00 && (masculino == true) && quatroDobras >= 35.00 && quatroDobras <= 39.99){
-        totalSomatorio = Number(19.60)
+        gorduraCorporal = Number(19.60)
     }
     if(idade >= 40.00 && idade <= 49.00 && (masculino == true) && quatroDobras >= 40.00 && quatroDobras <= 44.99){
-        totalSomatorio = Number(21.40)
+        gorduraCorporal = Number(21.40)
     }
     if(idade >= 40.00 && idade <= 49.00 && (masculino == true) && quatroDobras >= 45.00 && quatroDobras <= 49.99){
-        totalSomatorio = Number(23.00)
+        gorduraCorporal = Number(23.00)
     }
     if(idade >= 40.00 && idade <= 49.00 && (masculino == true) && quatroDobras >= 50.00 && quatroDobras <= 54.99){
-        totalSomatorio = Number(24.60)
+        gorduraCorporal = Number(24.60)
     }
     if(idade >= 40.00 && idade <= 49.00 && (masculino == true) && quatroDobras >= 55.00 && quatroDobras <= 59.99){
-        totalSomatorio = Number(25.90)
+        gorduraCorporal = Number(25.90)
     }
     if(idade >= 40.00 && idade <= 49.00 && (masculino == true) && quatroDobras >= 60.00 && quatroDobras <= 64.99){
-        totalSomatorio = Number(27.10)
+        gorduraCorporal = Number(27.10)
     }
     if(idade >= 40.00 && idade <= 49.00 && (masculino == true) && quatroDobras >= 65.00 && quatroDobras <= 69.99){
-        totalSomatorio = Number(28.20)
+        gorduraCorporal = Number(28.20)
     }
     if(idade >= 40.00 && idade <= 49.00 && (masculino == true) && quatroDobras >= 70.00 && quatroDobras <= 74.99){
-        totalSomatorio = Number(29.30)
+        gorduraCorporal = Number(29.30)
     }
     if(idade >= 40.00 && idade <= 49.00 && (masculino == true) && quatroDobras >= 75.00 && quatroDobras <= 79.99){
-        totalSomatorio = Number(30.30)
+        gorduraCorporal = Number(30.30)
     }
     if(idade >= 40.00 && idade <= 49.00 && (masculino == true) && quatroDobras >= 80.00 && quatroDobras <= 84.99){
-        totalSomatorio = Number(31.20)
+        gorduraCorporal = Number(31.20)
     }
     if(idade >= 40.00 && idade <= 49.00 && (masculino == true) && quatroDobras >= 85.00 && quatroDobras <= 89.99){
-        totalSomatorio = Number(32.10)
+        gorduraCorporal = Number(32.10)
     }
     if(idade >= 40.00 && idade <= 49.00 && (masculino == true) && quatroDobras >= 90.00 && quatroDobras <= 94.99){
-        totalSomatorio = Number(33.00)
+        gorduraCorporal = Number(33.00)
     }
     if(idade >= 40.00 && idade <= 49.00 && (masculino == true) && quatroDobras >= 95.00 && quatroDobras <= 99.99){
-        totalSomatorio = Number(33.70)
+        gorduraCorporal = Number(33.70)
     }
     if(idade >= 40.00 && idade <= 49.00 && (masculino == true) && quatroDobras >= 100.00 && quatroDobras <= 104.99){
-        totalSomatorio = Number(34.40)
+        gorduraCorporal = Number(34.40)
     }
     if(idade >= 40.00 && idade <= 49.00 && (masculino == true) && quatroDobras >= 105.00 && quatroDobras <= 109.99){
-        totalSomatorio = Number(35.10)
+        gorduraCorporal = Number(35.10)
     }
     if(idade >= 40.00 && idade <= 49.00 && (masculino == true) && quatroDobras >= 110.00 && quatroDobras <= 114.99){
-        totalSomatorio = Number(35.80)
+        gorduraCorporal = Number(35.80)
     }
     if(idade >= 40.00 && idade <= 49.00 && (masculino == true) && quatroDobras >= 115.00 && quatroDobras <= 119.99){
-        totalSomatorio = Number(36.40)
+        gorduraCorporal = Number(36.40)
     }
     if(idade >= 40.00 && idade <= 49.00 && (masculino == true) && quatroDobras >= 120.00 && quatroDobras <= 124.99){
-        totalSomatorio = Number(37.00)
+        gorduraCorporal = Number(37.00)
     }
     if(idade >= 40.00 && idade <= 49.00 && (masculino == true) && quatroDobras >= 125.00 && quatroDobras <= 129.99){
-        totalSomatorio = Number(37.60)
+        gorduraCorporal = Number(37.60)
     }
     if(idade >= 40.00 && idade <= 49.00 && (masculino == true) && quatroDobras >= 130.00 && quatroDobras <= 134.99){
-        totalSomatorio = Number(38.20)
+        gorduraCorporal = Number(38.20)
     }
     if(idade >= 40.00 && idade <= 49.00 && (masculino == true) && quatroDobras >= 135.00 && quatroDobras <= 139.99){
-        totalSomatorio = Number(38.70)
+        gorduraCorporal = Number(38.70)
     }
     if(idade >= 40.00 && idade <= 49.00 && (masculino == true) && quatroDobras >= 140.00 && quatroDobras <= 144.99){
-        totalSomatorio = Number(39.20)
+        gorduraCorporal = Number(39.20)
     }
     if(idade >= 40.00 && idade <= 49.00 && (masculino == true) && quatroDobras >= 145.00 && quatroDobras <= 149.99){
-        totalSomatorio = Number(39.70)
+        gorduraCorporal = Number(39.70)
     }
     if(idade >= 40.00 && idade <= 49.00 && (masculino == true) && quatroDobras >= 150.00 && quatroDobras <= 154.99){
-        totalSomatorio = Number(40.20)
+        gorduraCorporal = Number(40.20)
     }
     if(idade >= 40.00 && idade <= 49.00 && (masculino == true) && quatroDobras >= 155.00 && quatroDobras <= 159.99){
-        totalSomatorio = Number(40.70)
+        gorduraCorporal = Number(40.70)
     }
     if(idade >= 40.00 && idade <= 49.00 && (masculino == true) && quatroDobras >= 160.00 && quatroDobras <= 164.99){
-        totalSomatorio = Number(41.20)
+        gorduraCorporal = Number(41.20)
     }
     if(idade >= 40.00 && idade <= 49.00 && (masculino == true) && quatroDobras >= 165.00 && quatroDobras <= 169.99){
-        totalSomatorio = Number(41.60)
+        gorduraCorporal = Number(41.60)
     }
     if(idade >= 40.00 && idade <= 49.00 && (masculino == true) && quatroDobras >= 170.00 && quatroDobras <= 174.99){
-        totalSomatorio = Number(42.00)
+        gorduraCorporal = Number(42.00)
     }
 
     // Tabela de somatório 4 dobras homens 50+ anos
     if(idade >= 50.00 && (masculino == true) && quatroDobras >= 20.00 && quatroDobras <= 24.99){
-        totalSomatorio = Number(12.60)
+        gorduraCorporal = Number(12.60)
     }
     if(idade >= 50.00 && (masculino == true) && quatroDobras >= 25.00 && quatroDobras <= 29.99){
-        totalSomatorio = Number(15.60)
+        gorduraCorporal = Number(15.60)
     }
     if(idade >= 50.00 && (masculino == true) && quatroDobras >= 30.00 && quatroDobras <= 34.99){
-        totalSomatorio = Number(18.60)
+        gorduraCorporal = Number(18.60)
     }
     if(idade >= 50.00 && (masculino == true) && quatroDobras >= 35.00 && quatroDobras <= 39.99){
-        totalSomatorio = Number(20.80)
+        gorduraCorporal = Number(20.80)
     }
     if(idade >= 50.00 && (masculino == true) && quatroDobras >= 40.00 && quatroDobras <= 44.99){
-        totalSomatorio = Number(22.90)
+        gorduraCorporal = Number(22.90)
     }
     if(idade >= 50.00 && (masculino == true) && quatroDobras >= 45.00 && quatroDobras <= 49.99){
-        totalSomatorio = Number(24.70)
+        gorduraCorporal = Number(24.70)
     }
     if(idade >= 50.00 && (masculino == true) && quatroDobras >= 50.00 && quatroDobras <= 54.99){
-        totalSomatorio = Number(26.50)
+        gorduraCorporal = Number(26.50)
     }
     if(idade >= 50.00 && (masculino == true) && quatroDobras >= 55.00 && quatroDobras <= 59.99){
-        totalSomatorio = Number(27.90)
+        gorduraCorporal = Number(27.90)
     }
     if(idade >= 50.00 && (masculino == true) && quatroDobras >= 60.00 && quatroDobras <= 64.99){
-        totalSomatorio = Number(29.20)
+        gorduraCorporal = Number(29.20)
     }
     if(idade >= 50.00 && (masculino == true) && quatroDobras >= 65.00 && quatroDobras <= 69.99){
-        totalSomatorio = Number(30.40)
+        gorduraCorporal = Number(30.40)
     }
     if(idade >= 50.00 && (masculino == true) && quatroDobras >= 70.00 && quatroDobras <= 74.99){
-        totalSomatorio = Number(31.60)
+        gorduraCorporal = Number(31.60)
     }
     if(idade >= 50.00 && (masculino == true) && quatroDobras >= 75.00 && quatroDobras <= 79.99){
-        totalSomatorio = Number(32.70)
+        gorduraCorporal = Number(32.70)
     }
     if(idade >= 50.00 && (masculino == true) && quatroDobras >= 80.00 && quatroDobras <= 84.99){
-        totalSomatorio = Number(33.80)
+        gorduraCorporal = Number(33.80)
     }
     if(idade >= 50.00 && (masculino == true) && quatroDobras >= 85.00 && quatroDobras <= 89.99){
-        totalSomatorio = Number(34.80)
+        gorduraCorporal = Number(34.80)
     }
     if(idade >= 50.00 && (masculino == true) && quatroDobras >= 90.00 && quatroDobras <= 94.99){
-        totalSomatorio = Number(35.80)
+        gorduraCorporal = Number(35.80)
     }
     if(idade >= 50.00 && (masculino == true) && quatroDobras >= 95.00 && quatroDobras <= 99.99){
-        totalSomatorio = Number(36.60)
+        gorduraCorporal = Number(36.60)
     }
     if(idade >= 50.00 && (masculino == true) && quatroDobras >= 100.00 && quatroDobras <= 104.99){
-        totalSomatorio = Number(37.40)
+        gorduraCorporal = Number(37.40)
     }
     if(idade >= 50.00 && (masculino == true) && quatroDobras >= 105.00 && quatroDobras <= 109.99){
-        totalSomatorio = Number(38.20)
+        gorduraCorporal = Number(38.20)
     }
     if(idade >= 50.00 && (masculino == true) && quatroDobras >= 110.00 && quatroDobras <= 114.99){
-        totalSomatorio = Number(39.00)
+        gorduraCorporal = Number(39.00)
     }
     if(idade >= 50.00 && (masculino == true) && quatroDobras >= 115.00 && quatroDobras <= 119.99){
-        totalSomatorio = Number(39.70)
+        gorduraCorporal = Number(39.70)
     }
     if(idade >= 50.00 && (masculino == true) && quatroDobras >= 120.00 && quatroDobras <= 124.99){
-        totalSomatorio = Number(40.40)
+        gorduraCorporal = Number(40.40)
     }
     if(idade >= 50.00 && (masculino == true) && quatroDobras >= 125.00 && quatroDobras <= 129.99){
-        totalSomatorio = Number(41.10)
+        gorduraCorporal = Number(41.10)
     }
     if(idade >= 50.00 && (masculino == true) && quatroDobras >= 130.00 && quatroDobras <= 134.99){
-        totalSomatorio = Number(41.80)
+        gorduraCorporal = Number(41.80)
     }
     if(idade >= 50.00 && (masculino == true) && quatroDobras >= 135.00 && quatroDobras <= 139.99){
-        totalSomatorio = Number(42.40)
+        gorduraCorporal = Number(42.40)
     }
     if(idade >= 50.00 && (masculino == true) && quatroDobras >= 140.00 && quatroDobras <= 144.99){
-        totalSomatorio = Number(43.00)
+        gorduraCorporal = Number(43.00)
     }
     if(idade >= 50.00 && (masculino == true) && quatroDobras >= 145.00 && quatroDobras <= 149.99){
-        totalSomatorio = Number(43.60)
+        gorduraCorporal = Number(43.60)
     }
     if(idade >= 50.00 && (masculino == true) && quatroDobras >= 150.00 && quatroDobras <= 154.99){
-        totalSomatorio = Number(44.10)
+        gorduraCorporal = Number(44.10)
     }
     if(idade >= 50.00 && (masculino == true) && quatroDobras >= 155.00 && quatroDobras <= 159.99){
-        totalSomatorio = Number(44.60)
+        gorduraCorporal = Number(44.60)
     }
     if(idade >= 50.00 && (masculino == true) && quatroDobras >= 160.00 && quatroDobras <= 164.99){
-        totalSomatorio = Number(45.10)
+        gorduraCorporal = Number(45.10)
     }
     if(idade >= 50.00 && (masculino == true) && quatroDobras >= 165.00 && quatroDobras <= 169.99){
-        totalSomatorio = Number(45.60)
+        gorduraCorporal = Number(45.60)
     }
     if(idade >= 50.00 && (masculino == true) && quatroDobras >= 170.00 && quatroDobras <= 174.99){
-        totalSomatorio = Number(46.10)
+        gorduraCorporal = Number(46.10)
+    }
+
+    // 24º PASSO - Classificando os valores de referência de gordura corporal
+
+    // Classificando os valores de referência de gordura corporal para mulheres
+    if((feminino == true) && gorduraCorporal <= 8.99){
+        classGorduraCorporal = "Risco de doenças e distúrbios associados à desnutrição"
+    }
+    if((feminino == true) && gorduraCorporal >= 9.00 && gorduraCorporal <= 22.99){
+        classGorduraCorporal = "Abaixo da média"
+    }
+    if((feminino == true) && gorduraCorporal >= 23.00 && gorduraCorporal <= 23.99){
+        classGorduraCorporal = "Média"
+    }
+    if((feminino == true) && gorduraCorporal >= 24.00 && gorduraCorporal <= 31.99){
+        classGorduraCorporal = "Acima da média"
+    }
+    if((feminino == true) && gorduraCorporal >= 32.00){
+        classGorduraCorporal = "Risco de doenças associadas à obesidade"
+    }
+
+    // Classificando os valores de referência de gordura corporal para homens
+    if((masculino == true) && gorduraCorporal <= 5.99){
+        classGorduraCorporal = "Risco de doenças e distúrbios associados à desnutrição"
+    }
+    if((masculino == true) && gorduraCorporal >= 6.00 && gorduraCorporal <= 14.99){
+        classGorduraCorporal = "Abaixo da média"
+    }
+    if((masculino == true) && gorduraCorporal >= 15.00 && gorduraCorporal <= 15.99){
+        classGorduraCorporal = "Média"
+    }
+    if((masculino == true) && gorduraCorporal >= 16.00 && gorduraCorporal <= 24.99){
+        classGorduraCorporal = "Acima da média"
+    }
+    if((masculino == true) && gorduraCorporal >= 25.00){
+        classGorduraCorporal = "Risco de doenças associadas à obesidade"
     }
 
     // saída de resultados
@@ -2629,7 +2665,9 @@ function calculosAntropometricos(){
     outRCQClass.textContent = `21.1. Classificação RCQ: ${rcqClass}`
     outEtnia.textContent = `22. Classificação de riscos segundo a CC e CA: ${ccClas}`
     outQuatroDobras.textContent = `23. Somatório 4 dobras (mm): ${quatroDobras.toFixed(2)}`
-    outTotalSomatorio.textContent = `23.1. %GC: ${totalSomatorio.toFixed(2)}`
+    outgorduraCorporal.textContent = `23.1. %GC: ${gorduraCorporal.toFixed(2)}`
+    outClassGorduraCorporal.textContent = `24. Classificação GC: ${classGorduraCorporal}`
+
 
 }
 var btCalcular = document.getElementById("btCalcular");
