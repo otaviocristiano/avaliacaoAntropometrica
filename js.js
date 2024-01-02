@@ -16,7 +16,7 @@ function mascara2(valor) {
 function mascara3(valor) {
 	var valorAlterado = valor.value;
 	valorAlterado = valorAlterado.replace(/\D/g, ""); // Remove todos os não dígitos
-	valorAlterado = valorAlterado.replace(/(\d+)(\d{1})$/, "$1.$2"); // Adiciona ponto com uma casa decimal
+	valorAlterado = valorAlterado.replace(/(\d+)(\d{1})$/, "$1.$2"); // Adiciona ponto aos dois últimos números
 	valor.value = valorAlterado;
 }
 
