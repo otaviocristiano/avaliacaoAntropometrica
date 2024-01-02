@@ -17,134 +17,136 @@
         </div>
     </header>
     <!-- Entrada nome e seleção de sexo -->
-    <div class="nomeSexo">
-        <div class="nomeSexo2">
-            <div>Nome:
-                <input type="text" id="inNome" autocomplete="off" maxlength="40">
-            </div>
-            <div>Sexo:
-                <input type="radio" name="inSexo" id="rbMasc">Masculino
-                <input type="radio" name="inSexo" id="rbFem">Feminino</p>
-            </div>
-        </div>
-
-        <div id="etnia"> 
-            <input type="checkbox" id="asiatico" name="asiatico" />
-            <label for="asiatico">Sul-asiáticos (brasileiros) e chineses</label>
-        </div>
-    </div>
-
-    <!-- Entrada de dados com grid -->
-    
-    <div class="dadosAntropometricos1">
-        <div class="antropometriaInicial">
-            <!-- Peso Atual, Peso Usual, PPRT -->
-            <div class="inDados">
-                <div class="dadoPaciente">Peso Atual</div>
-                <div class="dadoPacInput">
-                    <input type="text" id="inPA" maxlength="6" onkeyup="mascara(this)" placeholder="Inserir PA">
+    <form id="form-inDados">
+        <div class="nomeSexo">
+            <div class="nomeSexo2">
+                <div>Nome:
+                    <input type="text" id="inNome" autocomplete="off" maxlength="40">
+                </div>
+                <div>Sexo:
+                    <input type="radio" name="inSexo" id="rbMasc">Masculino
+                    <input type="radio" name="inSexo" id="rbFem">Feminino</p>
                 </div>
             </div>
-            <!-- Entrada Peso Usual -->
+
+            <div id="etnia"> 
+                <input type="checkbox" id="asiatico" name="asiatico" />
+                <label for="asiatico">Sul-asiáticos (brasileiros) e chineses</label>
+            </div>
+        </div>
+
+        <!-- Entrada de dados com grid -->
+        
+        <div class="dadosAntropometricos1">
+            <div class="antropometriaInicial">
+                <!-- Peso Atual, Peso Usual, PPRT -->
+                <div class="inDados">
+                    <div class="dadoPaciente">Peso Atual</div>
+                    <div class="dadoPacInput">
+                        <input type="text" id="inPA" maxlength="6" onkeyup="mascara(this)" placeholder="Inserir PA">
+                    </div>
+                </div>
+                <!-- Entrada Peso Usual -->
+                <div class="inDados">
+                    <div class="dadoPaciente">Peso Usual</div>
+                    <div class="dadoPacInput">
+                        <input type="text" id="inPU" maxlength="6" onkeyup="mascara(this)" placeholder="Inserir PU">
+                    </div>
+                </div>
+            </div>
+            <div class="inPPRT"> <!-- Perda de peso em relação ao tempo -->
+                <!-- <hr class="hrLine">
+                <hr size = "5">-->
+                <p>Em caso de perda de peso, informar o tempo:</p>
+                <p><input type="radio" name="inPerda" id="rb1Semana"> 1 Semana
+                <input type="radio" name="inPerda" id="rb1Mes"> 1 Mes
+                <input type="radio" name="inPerda" id="rb3Meses"> 3 Meses
+                <input type="radio" name="inPerda" id="rb6Meses"> 6 Meses</p> 
+                <!-- <hr class="hrLine"> -->       
+            </div>
+        </div>
+
+        <div class="dadosAntropometricos2">
+            <!-- Entrada Idade -->
             <div class="inDados">
-                <div class="dadoPaciente">Peso Usual</div>
+                <div class="dadoPaciente">Idade (anos)</div>
                 <div class="dadoPacInput">
-                    <input type="text" id="inPU" maxlength="6" onkeyup="mascara(this)" placeholder="Inserir PU">
+                    <input type="text" id="inIdade" maxlength="2" onkeyup="mascara2(this)" placeholder="Inserir idade">
+                </div>
+            </div>
+            <!-- Entrada estatura -->
+            <div class="inDados">
+                <div class="dadoPaciente">Estatura(m)</div>
+                <div class="dadoPacInput">
+                    <input type="text" id="inEst" maxlength="4" onkeyup="mascara(this)" placeholder="Inserir altura">
+                </div>
+            </div>
+            <!-- Entrada Circunferência do Braço (CB) -->
+            <div class="inDados">
+                <div class="dadoPaciente">CB(cm)</div>
+                <div class="dadoPacInput">
+                    <input type="text" id="inCB" maxlength="4" onkeyup="mascara3(this)" placeholder="Inserir CB(cm)">
+                </div>
+            </div>
+            <!-- Entrada Circunferência Abdominal (CA) -->
+            <div class="inDados">
+                <div class="dadoPaciente">CA(cm)</div>
+                <div class="dadoPacInput">
+                    <input type="text" id="inCA" maxlength="5" onkeyup="mascara3(this)" placeholder="Inserir CA(cm)">
+                </div>
+            </div>
+            <!-- Entrada Circunferência da Cintura (CC) -->
+            <div class="inDados">
+                <div class="dadoPaciente">CC(cm)</div>
+                <div class="dadoPacInput">
+                    <input type="text" id="inCC" maxlength="5" onkeyup="mascara3(this)" placeholder="Inserir CC(cm)">
+                </div>
+            </div>
+            <!-- Entrada Circunferência do Quadril (CQ) -->
+            <div class="inDados">
+                <div class="dadoPaciente">CQ(cm)</div>
+                <div class="dadoPacInput">
+                    <input type="text" id="inCQ" maxlength="5" onkeyup="mascara3(this)" placeholder="Inserir CQ(cm)">
+                </div>
+            </div>
+            <!-- Entrada Prega Cutânea Biciptal (PCB) -->
+            <div class="inDados">
+                <div class="dadoPaciente">PCB(mm)</div>
+                <div class="dadoPacInput">
+                    <input type="text" id="inPCB" maxlength="4" onkeyup="mascara3(this)" placeholder="Inserir PCB(mm)">
+                </div>
+            </div>
+            <!-- Entrada Prega Cutânea Trciptal -->
+            <div class="inDados">
+                <div class="dadoPaciente">PCT(mm)</div>
+                <div class="dadoPacInput">
+                    <input type="text" id="inPCT" maxlength="4" onkeyup="mascara3(this)" placeholder="Inserir PCT(mm)">
+                </div>
+            </div>
+            <!-- Entrada estatura -->
+            <div class="inDados">
+                <div class="dadoPaciente">DCSE(mm)</div>
+                <div class="dadoPacInput">
+                    <input type="text" id="inDCSE" maxlength="4" onkeyup="mascara3(this)" placeholder="Inserir DCSE(mm)">
+                </div>
+            </div>
+            <!-- Entrada estatura -->
+            <div class="inDados">
+                <div class="dadoPaciente">DCSI(mm)</div>
+                <div class="dadoPacInput">
+                    <input type="text" id="inDCSI" maxlength="4" onkeyup="mascara3(this)" placeholder="Inserir DCSI(mm)">
                 </div>
             </div>
         </div>
-        <div class="inPPRT"> <!-- Perda de peso em relação ao tempo -->
-            <!-- <hr class="hrLine">
-            <hr size = "5">-->
-            <p>Em caso de perda de peso, informar o tempo:</p>
-            <p><input type="radio" name="inPerda" id="rb1Semana"> 1 Semana
-            <input type="radio" name="inPerda" id="rb1Mes"> 1 Mes
-            <input type="radio" name="inPerda" id="rb3Meses"> 3 Meses
-            <input type="radio" name="inPerda" id="rb6Meses"> 6 Meses</p> 
-            <!-- <hr class="hrLine"> -->       
-        </div>
-    </div>
-
-    <div class="dadosAntropometricos2">
-        <!-- Entrada Idade -->
-        <div class="inDados">
-            <div class="dadoPaciente">Idade (anos)</div>
-            <div class="dadoPacInput">
-                <input type="text" id="inIdade" maxlength="2" onkeyup="mascara2(this)" placeholder="Inserir idade">
+        
+        
+        <!-- Botões -->
+        <div class="buttons">
+            <div class="botaoCalcular">
+                <input type="button" class="buttonCalc" value="Gerar" id="btCalcular">
             </div>
         </div>
-        <!-- Entrada estatura -->
-        <div class="inDados">
-            <div class="dadoPaciente">Estatura(m)</div>
-            <div class="dadoPacInput">
-                <input type="text" id="inEst" maxlength="4" onkeyup="mascara(this)" placeholder="Inserir altura">
-            </div>
-        </div>
-        <!-- Entrada Circunferência do Braço (CB) -->
-        <div class="inDados">
-            <div class="dadoPaciente">CB(cm)</div>
-            <div class="dadoPacInput">
-                <input type="text" id="inCB" maxlength="4" onkeyup="mascara3(this)" placeholder="Inserir CB(cm)">
-            </div>
-        </div>
-        <!-- Entrada Circunferência Abdominal (CA) -->
-        <div class="inDados">
-            <div class="dadoPaciente">CA(cm)</div>
-            <div class="dadoPacInput">
-                <input type="text" id="inCA" maxlength="5" onkeyup="mascara3(this)" placeholder="Inserir CA(cm)">
-            </div>
-        </div>
-        <!-- Entrada Circunferência da Cintura (CC) -->
-        <div class="inDados">
-            <div class="dadoPaciente">CC(cm)</div>
-            <div class="dadoPacInput">
-                <input type="text" id="inCC" maxlength="5" onkeyup="mascara3(this)" placeholder="Inserir CC(cm)">
-            </div>
-        </div>
-        <!-- Entrada Circunferência do Quadril (CQ) -->
-        <div class="inDados">
-            <div class="dadoPaciente">CQ(cm)</div>
-            <div class="dadoPacInput">
-                <input type="text" id="inCQ" maxlength="5" onkeyup="mascara3(this)" placeholder="Inserir CQ(cm)">
-            </div>
-        </div>
-        <!-- Entrada Prega Cutânea Biciptal (PCB) -->
-        <div class="inDados">
-            <div class="dadoPaciente">PCB(mm)</div>
-            <div class="dadoPacInput">
-                <input type="text" id="inPCB" maxlength="4" onkeyup="mascara3(this)" placeholder="Inserir PCB(mm)">
-            </div>
-        </div>
-        <!-- Entrada Prega Cutânea Trciptal -->
-        <div class="inDados">
-            <div class="dadoPaciente">PCT(mm)</div>
-            <div class="dadoPacInput">
-                <input type="text" id="inPCT" maxlength="4" onkeyup="mascara3(this)" placeholder="Inserir PCT(mm)">
-            </div>
-        </div>
-        <!-- Entrada estatura -->
-        <div class="inDados">
-            <div class="dadoPaciente">DCSE(mm)</div>
-            <div class="dadoPacInput">
-                <input type="text" id="inDCSE" maxlength="4" onkeyup="mascara3(this)" placeholder="Inserir DCSE(mm)">
-            </div>
-        </div>
-        <!-- Entrada estatura -->
-        <div class="inDados">
-            <div class="dadoPaciente">DCSI(mm)</div>
-            <div class="dadoPacInput">
-                <input type="text" id="inDCSI" maxlength="4" onkeyup="mascara3(this)" placeholder="Inserir DCSI(mm)">
-            </div>
-        </div>
-    </div>
-    
-    
-    <!-- Botões -->
-    <div class="buttons">
-        <div class="botaoCalcular">
-            <input type="button" class="buttonCalc" value="Gerar" id="btCalcular">
-        </div>
-    </div>
+    </form>
     <!--Saída de dados-->
     
     <!-- SAÍDA DE RESULTADOS -->

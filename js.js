@@ -20,7 +20,16 @@ function mascara3(valor) {
 	valor.value = valorAlterado;
 }
 
+// IMPEDIR ATUALIZAÇÃO AUTOMÁTICA DA PÁGINA
+const form = document.getElementById('form-inDados')
+form.addEventListener('submit', e => {
+    e.preventDefault()
+    console.log('Deu certo')
+})
+
 function calculosAntropometricos(){
+
+    
     // ## ENTRADA DE DADOS ##
     //Captura entradas de nome
     let nome = document.querySelector("#inNome").value;
@@ -474,7 +483,7 @@ function calculosAntropometricos(){
     if (masculino){
         ambc = Number(((Math.pow((cb - Math.PI * pct / 10), 2)) / (4 * Math.PI)) - 10.00)
     }
-    console.log(ambc)
+ 
     // 18º PASSO - Classificação Nutricional Segundo a AMBc
     // Tabela do percentil da AMBc para mulheres
     if(idade >= 18.00 && idade <= 24.99 && (feminino == true)){
@@ -2781,24 +2790,4 @@ function calculosAntropometricos(){
 }
 var btCalcular = document.getElementById("btCalcular");
 btCalcular.addEventListener("click", calculosAntropometricos);
-/*
-// Function Calcular PI
-function PI(){
-    let est = document.querySelector("#inEst").value;
 
-    const pi = est * est * 21.00;
-
-    outPI.textContent = `PI(Kg): ${pi.toFixed(2)}`;
-}
-btCalc.addEventListener("click", PI);
-
-
-// Function Calcular IMC
-function IMC(){
-    let est = document.querySelector("#inEst").value;
-
-    const imc = est * est * 24.90;
-    outIMC.textContent = `IMC(Kg/m²): ${imc.toFixed(2)}`;
-}
-let btResultado = document.getElementById("btCalc");
-btCalc.addEventListener("click", IMC, PI); */
