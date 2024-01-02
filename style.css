@@ -109,15 +109,18 @@ e a borda estejam incluídos na largura e altura total dos elementos*/
         margin: 4px auto;
         padding: 2px;
         border-radius: 5px;
+
+        display: grid;
+        grid-template-columns: 0.21fr 0.21fr;
+
     }
-    .buttonCalc{
+    .buttonCalc, .buttonLimpar{
         font-size: 1.2em;
         padding: 4px;
         margin: 4px auto;
 
         border-radius: 5px;
         box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
-
     }
     .resultadosAntropometricos{
         width: 98%;
@@ -257,8 +260,11 @@ e a borda estejam incluídos na largura e altura total dos elementos*/
         margin: 4px auto;
         padding: 2px;
         border-radius: 5px;
+
+        display: grid;
+        grid-template-columns: 0.12fr 0.12fr;
     }
-    .buttonCalc{
+    .buttonCalc, .buttonLimpar{
         font-size: 1.2em;
         padding: 4px;
         margin: 4px auto;
@@ -408,8 +414,11 @@ e a borda estejam incluídos na largura e altura total dos elementos*/
         margin: 4px auto;
         padding: 2px;
         border-radius: 5px;
+
+        display: grid;
+        grid-template-columns: 0.08fr 0.08fr;
     }
-    .buttonCalc{
+    .buttonCalc, .buttonLimpar{
         font-size: 1.2em;
         padding: 4px;
         margin: 4px auto;
