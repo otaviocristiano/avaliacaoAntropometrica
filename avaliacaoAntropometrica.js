@@ -1,4 +1,24 @@
+/* Função de remove tudo que não for número, e também adiciona ponto nas duas últimas casas decimais */
+function mascara(valor) {
+	var valorAlterado = valor.value;
+	valorAlterado = valorAlterado.replace(/\D/g, ""); // Remove todos os não dígitos
+	valorAlterado = valorAlterado.replace(/(\d+)(\d{2})$/, "$1.$2"); // Adiciona ponto aos dois últimos números
+	valor.value = valorAlterado;
+}
 
+// Mascara para o campo "idade"
+function mascara2(valor) {
+	var valorAlterado = valor.value;
+	valorAlterado = valorAlterado.replace(/\D/g, ""); // Remove todos os não dígitos
+	valor.value = valorAlterado;
+}
+// Mascara para os campos CB, PCB, PCT, DCSE, DCSI
+function mascara3(valor) {
+	var valorAlterado = valor.value;
+	valorAlterado = valorAlterado.replace(/\D/g, ""); // Remove todos os não dígitos
+	valorAlterado = valorAlterado.replace(/(\d+)(\d{1})$/, "$1.$2"); // Adiciona ponto com uma casa decimal
+	valor.value = valorAlterado;
+}
 
 function calculosAntropometricos(){
     // ## ENTRADA DE DADOS ##
@@ -199,39 +219,39 @@ function calculosAntropometricos(){
     // PASSO 9 - PERDA DE PESO EM RELAÇÃO AO TEMPO (%)
     // Nota: Essa função depende do resultado da condição acima (PASSO 8 - Mudança de peso)
    
-    // Perda de peso em relação ao tempo durante 7 dias
+    // Perda de peso em relação ao tempo - PPRT durante 7 dias
     if(pa < pu && (umaSemana == true) && (perdaPeso >= 1.00 && perdaPeso <= 2.00)){
-        pprt = "PPRT: Perda significativa de peso"
+        pprt = "Perda significativa de peso"
     }
     if(pa < pu && (umaSemana == true) && (perdaPeso > 2.00)){
-        pprt = "PPRT: Perda grave de peso"
+        pprt = "Perda grave de peso"
     }
     // Perda de peso em relação ao tempo durante 30 dias
     if(pa < pu && (umMes == true) && (perdaPeso <= 5.00)){
-        pprt = "PPRT: Perda significativa de peso"
+        pprt = "Perda significativa de peso"
     }
     if(pa < pu && (umMes == true) && (perdaPeso > 5.00)){
-        pprt = "PPRT: Perda grave de peso"
+        pprt = "Perda grave de peso"
     }
     // Perda de peso em relação ao tempo durante 90 dias (3 meses)
     if(pa < pu && (tresMeses == true) && (perdaPeso >= 7.50)){
-        pprt = "PPRT: Perda significativa de peso"
+        pprt = "Perda significativa de peso"
     }
     if(pa < pu && (tresMeses == true) && (perdaPeso > 7.50)){
-        pprt = "PPRT: Perda grave de peso"
+        pprt = "Perda grave de peso"
     }
     // Perda de peso em relação ao tempo durante 180 dias (6 meses)
     if(pa < pu && (seisMeses == true) && (perdaPeso >= 10.00)){
-        pprt = "PPRT: Perda significativa de peso"
+        pprt = "Perda significativa de peso"
     }
     if(pa < pu && (seisMeses == true) && (perdaPeso > 10.00)){
-        pprt = "PPRT: Perda grave de peso"
+        pprt = "Perda grave de peso"
     }
     if(pa == pu){
-        pprt = "PPRT: Paciente com o mesmo peso"
+        pprt = "Paciente com o mesmo peso"
     }
     if (pa > pu){
-        pprt = "PPRT: Paciente ganhou peso"
+        pprt = "Paciente ganhou peso"
     }
 
     // PASSOS 10 E 11 - Adequação da CB
@@ -2637,36 +2657,120 @@ function calculosAntropometricos(){
     if((masculino == true) && gorduraCorporal >= 25.00){
         classGorduraCorporal = "Risco de doenças associadas à obesidade"
     }
+    
+    /* Strings para concatenação na saída de resultados */
+    a1 = "Peso Ideal(teórico): "
+    outA1.textContent = `${a1}`
+
+    a2 = "Peso Saudável Mínimo: "
+    outA2.textContent = `${a2}`
+
+    a3 = "Peso Saudável Máximo: "
+    outA3.textContent = `${a3}`
+
+    a4 = "IMC: "
+    outA4.textContent = `${a4}`
+
+    a5 = "Classificação do IMC: "
+    outA5.textContent = `${a5}`
+
+    a6 = "Adequação de Peso (AP): "
+    outA6.textContent = `${a6}`
+
+    a7 = "Classificação conforme AP: "
+    outA7.textContent = `${a7}`
+
+    a8 = "Peso Ajustado: "
+    outA8.textContent = `${a8}`
+
+    a9 = "Perda de Peso (PP%): "
+    outA9.textContent = `${a9}`
+
+    a10 = "PP em Relação ao Tempo: "
+    outA10.textContent = `${a10}`
+
+    a11 = "Adequação da CB: "
+    outA11.textContent = `${a11}`
+
+    a12 = "Estado Nutricional Conforme CB"
+    outA12.textContent = `${a12}`
+
+    a13 = "Adequação da PCT: "
+    outA13.textContent = `${a13}`
+
+    a14 = "Classific. Est. Nut. conforme DCT: "
+    outA14.textContent = `${a14}`
+
+    a15 = "Circunferência Muscular do Braço (CMB): "
+    outA15.textContent = `${a15}`
+
+    a16 = "Estado Nutricional Conforme CMB: "
+    outA16.textContent = `${a16}`
+
+    a17 = "Estado Nutricional Conforme a CMB: "
+    outA17.textContent = `${a17}`
+
+    a18 = "Área Muscular do Braço Corrigida (AMBc): "
+    outA18.textContent = `${a18}`
+
+    a19 = "AMBc Classificação: "
+    outA19.textContent = `${a19}`
+
+    a20 = "Área de Gordura do Braço (AGB): "
+    outA20.textContent = `${a20}`
+
+    a21 = "AGB Classificação: "
+    outA21.textContent = `${a21}`
+
+    a22 = "Relação Cintura Quadril (RCQ): "
+    outA22.textContent = `${a22}`
+
+    a23 = "Classificação da RCQ: "
+    outA23.textContent = `${a23}`
+
+    a24 = "Classificação de riscos segundo a CC e CA: "
+    outA24.textContent = `${a24}`
+
+    a25 = "Somatório 4 dobras: "
+    outA25.textContent = `${a25}`
+
+    a26 = "Porcentagem de Gordura Corporal: "
+    outA26.textContent = `${a26}`
+
+    a27 = "Classificação GC: "
+    outA26.textContent = `${a27}`
 
     // saída de resultados
-    outPI.textContent = `1. Peso Ideal/Teórico (Kg): ${PICalc.toFixed(2)}`;
-    outPSMin.textContent = `2.1. Peso Saudável Mínimo (Kg): ${psMin.toFixed(2)}`
-    outPSMax.textContent = `2.2. Peso Saudável Máximo (Kg): ${psMax.toFixed(2)}`
-    outIMC.textContent = `3. IMC (Kg/m²): ${imc.toFixed(2)}`;
-    outIMCClas.textContent = `4. Classificação do IMC: ${IMCClass}`
-    outAdeqPeso.textContent = `5. Adequação de Peso (%): ${adeqPeso.toFixed(2)}`
-    outAdeqPesoAlert.textContent = `${alertAdeqPeso}`
-    outAdeqPesoClas.textContent = `6. Classificação conforme a AP: ${clasAdeqPeso}`
-    outPAju.textContent = `7. Peso Ajustado: ${PAju.toFixed(2)}`
-    outPP.textContent = `8. Perda de peso (%): ${perdaPeso}`
-    outPPRT.textContent = `9. ${pprt}`
-    outCBAdeq.textContent = `10. Adequação da CB(%): ${adeqCB.toFixed(2)}`
-    outCBClass.textContent = `11. Estado Nutricional conforme CB: ${cbClass}`
-    outPCTAdeq.textContent = `12. Adeq. PCT(%): ${adeqPCT.toFixed(2)}`
-    outDCTEn.textContent = `13. Classific. EN conforme DCT: ${estNutDCT}`
-    outCMBCalc.textContent = `14. CMB(cm): ${cmbCalc.toFixed(2)}`
-    outCMBClass.textContent = `15. Estado Nutricional Segundo a CMB (%): ${adeqCMB.toFixed(2)}`
-    outCMBAdeq.textContent = `16. Estado NUtricional Conforme CMB: ${classCMB}`
-    outAMBC.textContent = `17. AMBC(cm²): ${ambc.toFixed(2)}`
-    outAMBCClass.textContent = `18. AMBc Classificação: ${ambcClassific}`
-    outAGB.textContent = `19. AGB (cm²): ${agb.toFixed(2)}`
-    outAGBClass.textContent = `20. AGB Classificação: ${agbPercent}`
-    outRCQ.textContent = `21. RCQ: ${rcq.toFixed(2)}`
-    outRCQClass.textContent = `21.1. Classificação RCQ: ${rcqClass}`
-    outEtnia.textContent = `22. Classificação de riscos segundo a CC e CA: ${ccClas}`
-    outQuatroDobras.textContent = `23. Somatório 4 dobras (mm): ${quatroDobras.toFixed(2)}`
-    outgorduraCorporal.textContent = `23.1. %GC: ${gorduraCorporal.toFixed(2)}`
-    outClassGorduraCorporal.textContent = `24. Classificação GC: ${classGorduraCorporal}`
+
+    outPI.textContent = `${PICalc.toFixed(2)}Kg`
+    outPSMin.textContent = `${psMin.toFixed(2)}Kg`
+    outPSMax.textContent = `${psMax.toFixed(2)}Kg`
+    outIMC.textContent = `${imc.toFixed(2)}Kg/m²`;
+    outIMCClas.textContent = `${IMCClass}`
+    outAdeqPeso.textContent = `${adeqPeso.toFixed(2)}%`
+
+    outAdeqPesoClas.textContent = `${clasAdeqPeso}`
+    outPAju.textContent = `${PAju.toFixed(2)}`
+    outPP.textContent = `${perdaPeso}`
+    outPPRT.textContent = `${pprt}`
+    outCBAdeq.textContent = `${adeqCB.toFixed(2)}%`
+    outCBClass.textContent = `${cbClass}`
+    outPCTAdeq.textContent = `${adeqPCT.toFixed(2)}%`
+    outDCTEn.textContent = `${estNutDCT}`
+    outCMBCalc.textContent = `${cmbCalc.toFixed(2)}cm`
+    outCMBClass.textContent = `${adeqCMB.toFixed(2)}%`
+    outCMBAdeq.textContent = `${classCMB}` // Estado Nutricional Conforme CMB
+    outAMBC.textContent = `${ambc.toFixed(2)} cm²` // AMBC(cm²) 
+    outAMBCClass.textContent = `${ambcClassific}` // AMBc Classificação
+    outAGB.textContent = `${agb.toFixed(2)}cm²` // AGB (cm²)
+    outAGBClass.textContent = `${agbPercent}` // AGB Classificação
+    outRCQ.textContent = `${rcq.toFixed(2)}` // Relação Cintura Quadril
+    outRCQClass.textContent = `${rcqClass}` // Classificação RCQ
+    outEtnia.textContent = `${ccClas}` // Classificação de riscos segundo a CC e CA
+    outQuatroDobras.textContent = `${quatroDobras.toFixed(2)}mm` // Somatório 4 dobras (mm)
+    outgorduraCorporal.textContent = `${gorduraCorporal.toFixed(2)}%` // Gordura Corporal %
+    outClassGorduraCorporal.textContent = `${classGorduraCorporal}` //Classificação da Gordura Corporal 
+    outAdeqPesoAlert.textContent = `${alertAdeqPeso}` // Colocar saída de resultado no final (parte inferior)
 
 
 }

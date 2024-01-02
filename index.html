@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div id="logo">
+            <img src="img/logo.png" alt="logotipo">
+        </div>
+        <div id="tituloPrograma">
+            <h1>Avaliação Antropométrica</h1>
+            <p>Simplificando seu diagnóstico</p>
+        </div>
+    </header>
+    <!-- Entrada nome e seleção de sexo -->
+    <div class="nomeSexo">
+        <div class="nomeSexo2">
+            <div>Nome:
+                <input type="text" id="inNome" autocomplete="off" maxlength="40">
+            </div>
+            <div>Sexo:
+                <input type="radio" name="inSexo" id="rbMasc">Masculino
+                <input type="radio" name="inSexo" id="rbFem">Feminino</p>
+            </div>
+        </div>
+
+        <div id="etnia"> 
+            <input type="checkbox" id="asiatico" name="asiatico" />
+            <label for="asiatico">Sul-asiáticos (brasileiros) e chineses</label>
+        </div>
+    </div>
+
+    <!-- Entrada de dados com grid -->
+    
+    <div class="dadosAntropometricos1">
+        <div class="antropometriaInicial">
+            <!-- Peso Atual, Peso Usual, PPRT -->
+            <div class="inDados">
+                <div class="dadoPaciente">Peso Atual</div>
+                <div class="dadoPacInput">
+                    <input type="text" id="inPA" maxlength="6" onkeyup="mascara(this)" placeholder="Inserir PA">
+                </div>
+            </div>
+            <!-- Entrada Peso Usual -->
+            <div class="inDados">
+                <div class="dadoPaciente">Peso Usual</div>
+                <div class="dadoPacInput">
+                    <input type="text" id="inPU" maxlength="6" onkeyup="mascara(this)" placeholder="Inserir PU">
+                </div>
+            </div>
+        </div>
+        <div class="inPPRT"> <!-- Perda de peso em relação ao tempo -->
+            <!-- <hr class="hrLine">
+            <hr size = "5">-->
+            <p>Em caso de perda de peso, informar o tempo:</p>
+            <p><input type="radio" name="inPerda" id="rb1Semana"> 1 Semana
+            <input type="radio" name="inPerda" id="rb1Mes"> 1 Mes
+            <input type="radio" name="inPerda" id="rb3Meses"> 3 Meses
+            <input type="radio" name="inPerda" id="rb6Meses"> 6 Meses</p> 
+            <!-- <hr class="hrLine"> -->       
+        </div>
+    </div>
+
+    <div class="dadosAntropometricos2">
+        <!-- Entrada Idade -->
+        <div class="inDados">
+            <div class="dadoPaciente">Idade (anos)</div>
+            <div class="dadoPacInput">
+                <input type="text" id="inIdade" maxlength="2" onkeyup="mascara2(this)" placeholder="Inserir idade">
+            </div>
+        </div>
+        <!-- Entrada estatura -->
+        <div class="inDados">
+            <div class="dadoPaciente">Estatura(m)</div>
+            <div class="dadoPacInput">
+                <input type="text" id="inEst" maxlength="4" onkeyup="mascara(this)" placeholder="Inserir altura">
+            </div>
+        </div>
+        <!-- Entrada Circunferência do Braço (CB) -->
+        <div class="inDados">
+            <div class="dadoPaciente">CB(cm)</div>
+            <div class="dadoPacInput">
+                <input type="text" id="inCB" maxlength="4" onkeyup="mascara3(this)" placeholder="Inserir CB(cm)">
+            </div>
+        </div>
+        <!-- Entrada Circunferência Abdominal (CA) -->
+        <div class="inDados">
+            <div class="dadoPaciente">CA(cm)</div>
+            <div class="dadoPacInput">
+                <input type="text" id="inCA" maxlength="5" onkeyup="mascara3(this)" placeholder="Inserir CA(cm)">
+            </div>
+        </div>
+        <!-- Entrada Circunferência da Cintura (CC) -->
+        <div class="inDados">
+            <div class="dadoPaciente">CC(cm)</div>
+            <div class="dadoPacInput">
+                <input type="text" id="inCC" maxlength="5" onkeyup="mascara3(this)" placeholder="Inserir CC(cm)">
+            </div>
+        </div>
+        <!-- Entrada Circunferência do Quadril (CQ) -->
+        <div class="inDados">
+            <div class="dadoPaciente">CQ(cm)</div>
+            <div class="dadoPacInput">
+                <input type="text" id="inCQ" maxlength="5" onkeyup="mascara3(this)" placeholder="Inserir CQ(cm)">
+            </div>
+        </div>
+        <!-- Entrada Prega Cutânea Biciptal (PCB) -->
+        <div class="inDados">
+            <div class="dadoPaciente">PCB(mm)</div>
+            <div class="dadoPacInput">
+                <input type="text" id="inPCB" maxlength="4" onkeyup="mascara3(this)" placeholder="Inserir PCB(mm)">
+            </div>
+        </div>
+        <!-- Entrada Prega Cutânea Trciptal -->
+        <div class="inDados">
+            <div class="dadoPaciente">PCT(mm)</div>
+            <div class="dadoPacInput">
+                <input type="text" id="inPCT" maxlength="4" onkeyup="mascara3(this)" placeholder="Inserir PCT(mm)">
+            </div>
+        </div>
+        <!-- Entrada estatura -->
+        <div class="inDados">
+            <div class="dadoPaciente">DCSE(mm)</div>
+            <div class="dadoPacInput">
+                <input type="text" id="inDCSE" maxlength="4" onkeyup="mascara3(this)" placeholder="Inserir DCSE(mm)">
+            </div>
+        </div>
+        <!-- Entrada estatura -->
+        <div class="inDados">
+            <div class="dadoPaciente">DCSI(mm)</div>
+            <div class="dadoPacInput">
+                <input type="text" id="inDCSI" maxlength="4" onkeyup="mascara3(this)" placeholder="Inserir DCSI(mm)">
+            </div>
+        </div>
+    </div>
+    
+    
+    <!-- Botões -->
+    <div class="buttons">
+        <div class="botaoCalcular">
+            <input type="button" class="buttonCalc" value="Gerar" id="btCalcular">
+        </div>
+    </div>
+    <!--Saída de dados-->
+    
+    <!-- SAÍDA DE RESULTADOS -->
+    <div class="resultadosAntropometricos">
+        <div class="saidaResultados">
+            <p id="outA1" class="resp"></p>
+            <p id="outPI"></p>
+        </div>
+        <div class="saidaResultados">
+            <p id="outA2" class="resp"></p>
+            <p id="outPSMin"></p>
+        </div>
+        <div class="saidaResultados">
+            <p id="outA3" class="resp"></p>
+            <p id="outPSMax"></p>
+        </div>
+        <div class="saidaResultados">
+            <p id="outA4" class="resp"></p>
+            <p id="outIMC"></p>
+        </div>
+        <div class="saidaResultados">
+            <p id="outA5" class="resp"></p>
+            <p id="outIMCClas"></p>
+        </div>
+        <div class="saidaResultados">
+            <p id="outA6" class="resp"></p>
+            <p id="outAdeqPeso"></p>
+        </div>
+        <div class="saidaResultados">
+            <p id="outA7" class="resp"></p>
+            <p id="outAdeqPesoClas"></p>
+        </div>
+        <div class="saidaResultados">
+            <p id="outA8" class="resp"></p>
+            <p id="outPAju"></p>
+        </div>
+        <div class="saidaResultados">
+            <p id="outA9" class="resp"></p>
+            <p id="outPP"></p>
+        </div>
+        <div class="saidaResultados">
+            <p id="outA10" class="resp"></p>
+            <p id="outPPRT"></p>
+        </div>
+        <div class="saidaResultados">
+            <p id="outA11" class="resp"></p>
+            <p id="outCBAdeq"></p>
+        </div>
+        <div class="saidaResultados">
+            <p id="outA12" class="resp"></p>
+            <p id="outCBClass"></p>
+        </div>
+        <div class="saidaResultados">
+            <p id="outA13" class="resp"></p>
+            <p id="outPCTAdeq"></p>
+        </div>
+        <div class="saidaResultados">
+            <p id="outA14" class="resp"></p>
+            <p id="outDCTEn"></p>
+        </div>
+        <div class="saidaResultados">
+            <p id="outA15" class="resp"></p>
+            <p id="outCMBCalc"></p>
+        </div>
+        <div class="saidaResultados">
+            <p id="outA16" class="resp"></p>
+            <p id="outCMBClass"></p>
+        </div>
+        <div class="saidaResultados">
+            <p id="outA17" class="resp"></p>
+            <p id="outCMBAdeq"></p>
+        </div>
+        <div class="saidaResultados">
+            <p id="outA18" class="resp"></p>
+            <p id="outAMBC"></p>
+        </div>
+        <div class="saidaResultados">
+            <p id="outA19" class="resp"></p>
+            <p id="outAMBCClass"></p>
+        </div>
+        <div class="saidaResultados">
+            <p id="outA20" class="resp"></p>
+            <p id="outAGB"></p>
+        </div>
+        <div class="saidaResultados">
+            <p id="outA21" class="resp"></p>
+            <p id="outAGBClass"></p>
+        </div>
+        <div class="saidaResultados">
+            <p id="outA22" class="resp"></p>
+            <p id="outRCQ"></p>
+        </div>
+        <div class="saidaResultados">
+            <p id="outA23" class="resp"></p>
+            <p id="outRCQClass"></p>
+        </div>
+        <div class="saidaResultados">
+            <p id="outA24" class="resp"></p>
+            <p id="outEtnia"></p>
+        </div>
+        <div class="saidaResultados">
+            <p id="outA25" class="resp"></p>
+            <p id="outQuatroDobras"></p>
+        </div>
+        <div class="saidaResultados">
+            <p id="outA26" class="resp"></p>
+            <p id="outgorduraCorporal"></p>
+        </div>
+        <div class="saidaResultados">
+            <p id="outA27" class="resp"></p>
+            <p id="outClassGorduraCorporal"></p>
+        </div>
+        <div class="saidaResultados">
+            <p id="outAdeqPesoAlert"></p>
+        </div>
+
+    </div>
+        
+        <!--
+        <div>
+            Saídas de resultados
+            <p id="outPI"></p>
+            <p id="outPSMin"></p>
+            <p id="outPSMax"></p>
+            <p id="outIMC"></p>
+            <p id="outIMCClas"></p>
+            <p id="outAdeqPeso"></p>
+            <p id="outAdeqPesoAlert"></p>
+            <p id="outAdeqPesoClas"></p>
+            <p id="outPAju"></p>
+            <p id="outPP"></p>
+            <p id="outPPRT"></p>
+            <p id="outCBAdeq"></p>
+            <p id="outCBClass"></p>
+            <p id="outPCTAdeq"></p>
+            <p id="outDCTEn"></p>
+            <p id="outCMBCalc"></p>
+            <p id="outCMBClass"></p>
+            <p id="outCMBAdeq"></p>
+            <p id="outAMBC"></p>
+            <p id="outAMBCClass"></p>
+            <p id="outAGB"></p>
+            <p id="outAGBClass"></p>
+            <p id="outRCQ"></p>
+            <p id="outRCQClass"></p>
+            <p id="outEtnia"></p>
+            <p id="outQuatroDobras"></p>
+            <p id="outgorduraCorporal"></p>
+            <p id="outClassGorduraCorporal"></p>
+        </div>
+    Vinculação do HTML com documento javaScript -->
+
+    <script src="/avaliacaoAntropometrica.js"></script>
+    <!--
+    NOTAS
+    1 - Fazer função para exportar resultados via pdf</p>
+    2- verificar passo 11, pesquisar tabela de adequação da CB números exatos de cada intervalo
+    -->
+</body>
+</html>
