@@ -93,9 +93,14 @@ function calculosAntropometricos(){
         inEst.focus(); // // posiciona (joga o foco) no campo de edição inEstatura
         return;
     }
-    if (inCB == "" || isNaN(cb)) {
+    if (inCB.value == "" || isNaN(cb)) {
         alert("Informe a 'Circunferência do Braço' corretamente"); // exibe alerta
         inCB.focus(); // // posiciona (joga o foco) no campo de edição inCB
+        return;
+    }
+    if (inCA.value == "" || isNaN(ca)) {
+        alert("Informe a 'Circunferência Abdominal' corretamente"); // exibe alerta
+        inCA.focus(); // // posiciona (joga o foco) no campo de edição inCA
         return;
     }
     if (inCC.value == "" || isNaN(cc)) {
